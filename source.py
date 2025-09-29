@@ -1,7 +1,7 @@
 # logging, 요청 재시도, 에러 로그까지 포함한 예시
 # pip install requests beautifulsoup4 apscheduler
 
-import os, re, time, sqlite3, sys, logging
+import os, re, time, datetime, sqlite3, sys, logging
 from logging.handlers import RotatingFileHandler, SysLogHandler, NTEventLogHandler
 import requests
 from urllib3.util.retry import Retry
@@ -85,18 +85,22 @@ def init_db():
     cur.execute("""
         CREATE TABLE IF NOT EXISTS seen(
             post_id TEXT PRIMARY KEY,
-            first_seen_ts INTEGER
+            first_seen_ts INTEGER,
+            product_name TEXT,
+            price INTEGER
         )
     """)
     con.commit()
     con.close()
 
-def is_new(pid: str) -> bool:
+def is_new(item: dict) -> bool:
     con = sqlite3.connect(DB); cur = con.cursor()
-    cur.execute("SELECT 1 FROM seen WHERE post_id=?", (pid,))
+    cur.execute("SELECT 1 FROM seen WHERE post_id=?", (item['id'],))
     known = cur.fetchone() is not None
     if not known:
-        cur.execute("INSERT INTO seen(post_id, first_seen_ts) VALUES(?,?)", (pid, int(time.time())))
+        item['date'] = int(time.time())
+        cur.execute("INSERT INTO seen(post_id, first_seen_ts, product_name, price)VALUES(?,?,?,?)"
+                    , (item['id'], item['date'], item['title'], item['raw_price'] ))
         con.commit()
     con.close()
     return not known
@@ -126,7 +130,7 @@ def _norm_img(src: str | None):
         return "https:" + s
     return urljoin(BASE, s)
 
-def parse_list(html: str):
+def parse_list(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     items = []
     for a in soup.select(".simple-board__webzine .item a.item__container"):
@@ -147,7 +151,13 @@ def parse_list(html: str):
 
         # 가격(있을 때만)
         price_el = card.select_one(".item__inner.item__etc-wrp span[style*='font-size']")
-        price = price_el.get_text(strip=True) if price_el else None
+        if price_el:
+            price = price_el.get_text(strip=True)  # "11,000원"
+            digits = re.sub(r"[^\d]", "", price)  # 숫자만 남김 → "11000"
+            raw_price = int(digits) if digits else None
+        else:
+            raw_price = None
+            price = None
 
         # 상태 아이콘(거래완료/구매중/S급/네고X/직거래 등)
         status = [s.get_text(strip=True) for s in card.select(".status_icon")]
@@ -169,18 +179,16 @@ def parse_list(html: str):
                 sp = dv.select_one("span")
                 comments = sp.get_text(strip=True) if sp else ""
 
-        # 수정글 아이콘
-        updated = card.select_one(".update-icon") is not None
 
         items.append({
             "id": pid,
             "url": urljoin(BASE, href),
             "title": title,
+            "raw_price": raw_price,
             "price": price,
             "status": status,
             "author": author,
             "age": age,
-            "updated": updated,
             "thumb": thumb,
             "views": views,
             "comments": comments,
@@ -196,7 +204,7 @@ def run_once():
             if "구매중" in it["status"]:
                 logger.debug(f"Filtered: {it['id']}")
                 continue
-            if is_new(it["id"]):
+            if is_new(it):
                 logger.info(f"NEW: {it['title']} -> {it['url']}")
                 discord_send(it)
             else:
@@ -218,11 +226,11 @@ def discord_send(item: dict):
     url   = item.get("url") or ""
     price = item.get("price") or "—"
     status = " / ".join(item.get("status") or []) or "—"
-    author_age = " · ".join([x for x in [item.get("author"), item.get("age")] if x]) or "—"
-    mod = " (수정됨)" if item.get("updated") else ""
+    date = datetime.datetime.fromtimestamp(item.get("date")).strftime("%Y-%m-%d %H:%M:%S")
+    author_age = " · ".join([x for x in [item.get("author"), date] if x]) or "—"
 
     embed = {
-        "title": title + mod,
+        "title": title,
         "url": url,
         "color": 0xFF8C8C,
         "fields": [
@@ -239,7 +247,7 @@ def discord_send(item: dict):
     max_attempts = 3
     for attempt in range(1, max_attempts + 1):
         try:
-            logger.info(f"[Discord] send attempt {attempt}/{max_attempts} | '{title}' -> {url}")
+            logger.info(f"[Discord] send attempt {attempt}/{max_attempts} | '{title}'")
             r = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
 
             # 성공(2xx 또는 204 No Content)
@@ -276,6 +284,7 @@ def discord_send(item: dict):
 
 if __name__ == "__main__":
     init_db()
+    # run_once()
     scheduler = BlockingScheduler()
     scheduler.add_job(run_once, "interval", minutes=1, jitter=20, max_instances=1, coalesce=True,
                       misfire_grace_time=60)

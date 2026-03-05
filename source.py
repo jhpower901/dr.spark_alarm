@@ -424,12 +424,12 @@ def discord_send(item: dict):
     time_text = f"<t:{ts}:f> (<t:{ts}:R>)"
 
     author = item.get("author") or "—"
-    author_time = f"{author} · {time_text}"
 
     fields = [
         {"name": "가격", "value": price, "inline": True},
         {"name": "상태", "value": status_full, "inline": True},
-        {"name": "작성자/시간", "value": author_time, "inline": False},
+        {"name": "작성자", "value": author, "inline": False},
+        {"name": "작성시간", "value": time_text, "inline": False},
     ]
 
     # DB에 저장되는 필드들도 디코에 함께 보여주기(원하신 방향: item에 저장해 전달)
@@ -447,8 +447,8 @@ def discord_send(item: dict):
         detail_lines.append(f"사용횟수: {item['usage_count']}")
     if item.get("features"):
         detail_lines.append(f"특장점: {item['features']}")
-    if item.get("phone_str"):
-        detail_lines.append(f"전화번호: {item['phone_str']}")
+    if item.get("phone"):
+        detail_lines.append(f"전화번호: {item['phone']}")
     if item.get("email"):
         detail_lines.append(f"E-mail: {item['email']}")
 

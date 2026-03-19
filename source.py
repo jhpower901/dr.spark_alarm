@@ -89,79 +89,72 @@ POST_ID_RE = re.compile(r"/(\d{5,})$")
 
 
 # ===== DB =====
+# 1. DB 초기화 (WAL 모드 추가로 안전성 강화)
 def init_db():
-    """
-    et_vars JSON -> 정규화 컬럼 저장 (요청 반영)
+    with sqlite3.connect(DB) as con:
+        cur = con.cursor()
+        cur.execute("PRAGMA journal_mode=WAL;")
+        cur.execute("PRAGMA synchronous=NORMAL;")
 
-    - phone_int: 전화번호를 숫자만 남겨 int로 저장 (없으면 NULL)
-    - region(거래지역)은 DB 저장 X (디코에만)
-    - decision_order(결정순서)은 저장 X
-    """
-    con = sqlite3.connect(DB)
-    cur = con.cursor()
-    cur.execute("""
-        CREATE TABLE IF NOT EXISTS seen(
-            post_id TEXT PRIMARY KEY,
-            observed_at INTEGER,
-            title TEXT,
-            price INTEGER,
-            author TEXT,
-            status TEXT,
-            body_content TEXT,
+        cur.execute("""
+                    CREATE TABLE IF NOT EXISTS seen
+                    (
+                        post_id TEXT PRIMARY KEY,
+                        observed_at INTEGER,
+                        title TEXT,
+                        price INTEGER,
+                        author TEXT,
+                        status TEXT,
+                        body_content TEXT,
+                        release_year TEXT,
+                        model_serial TEXT,
+                        spec TEXT,
+                        purchased_at TEXT,
+                        usage_count TEXT,
+                        features TEXT,
+                        phone TEXT,
+                        email TEXT
+                    )
+                    """)
 
-            release_year TEXT,
-            model_serial TEXT,
-            spec TEXT,
-            purchased_at TEXT,
-            usage_count TEXT,
-            features TEXT,
-            phone TEXT,
-            email TEXT
-        )
-    """)
-    con.commit()
-    con.close()
+        con.commit()
 
 
+# 2. 중복 확인 (조회 전용)
 def is_known(post_id: str) -> bool:
-    con = sqlite3.connect(DB)
-    cur = con.cursor()
-    cur.execute("SELECT 1 FROM seen WHERE post_id=?", (post_id,))
-    known = cur.fetchone() is not None
-    con.close()
-    return known
+    with sqlite3.connect(DB) as con:
+        cur = con.cursor()
+        cur.execute("SELECT 1 FROM seen WHERE post_id=?", (post_id,))
+        return cur.fetchone() is not None
 
 
+# 3. 데이터 저장 (안전한 트랜잭션 처리)
 def save_item(item: dict):
-    con = sqlite3.connect(DB)
-    cur = con.cursor()
-
-    cur.execute("""
-        INSERT INTO seen(
-            post_id, observed_at, title, price, author, status, body_content,
-            release_year, model_serial, spec, purchased_at, usage_count, features, phone, email
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-    """, (
-        item.get("id"),
-        item.get("observed_at"),
-        item.get("title"),
-        item.get("raw_price"),
-        item.get("author"),
-        item.get("status"),
-        item.get("body_content"),
-
-        item.get("release_year"),
-        item.get("model_serial"),
-        item.get("spec"),
-        item.get("purchased_at"),
-        item.get("usage_count"),
-        item.get("features"),
-        item.get("phone"),
-        item.get("email"),
-    ))
-
-    con.commit()
-    con.close()
+    with sqlite3.connect(DB) as con:
+        cur = con.cursor()
+        cur.execute("""
+                    INSERT INTO seen(post_id, observed_at, title, price, author, status, body_content,
+                                     release_year, model_serial, spec, purchased_at, usage_count, features, phone,
+                                     email)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """, (
+                        item.get("id"),
+                        item.get("observed_at"),
+                        item.get("title"),
+                        item.get("raw_price"),
+                        item.get("author"),
+                        item.get("status"),
+                        item.get("body_content"),
+                        item.get("release_year"),
+                        item.get("model_serial"),
+                        item.get("spec"),
+                        item.get("purchased_at"),
+                        item.get("usage_count"),
+                        item.get("features"),
+                        item.get("phone"),
+                        item.get("email"),
+                    ))
+        con.commit()
 
 
 # ===== HTTP Fetch =====

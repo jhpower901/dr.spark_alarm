@@ -283,18 +283,26 @@ def _parse_extravars_from_comments(detail_html: str) -> dict:
     return out
 
 
-def parse_detail(detail_html: str) -> dict:
+def parse_detail(detail_html: str, it: dict) -> dict:
     soup = BeautifulSoup(detail_html, "html.parser")
 
-    # 본문 요약(요청대로 컬럼명은 body_content)
-    body_content = None
-    m1 = soup.select_one('meta[name="description"]')
-    if m1 and m1.get("content"):
-        body_content = m1.get("content", "").strip()
+    # 1. 실제 본문 영역(div) 파싱 시도
+    content_div = soup.select_one('div.rhymix_content.xe_content')
+    if content_div:
+        # 텍스트만 추출 (separator="\n"으로 줄바꿈 유지)
+        body_content = content_div.get_text(separator="\n", strip=True)
+    else:
+        body_content = None
+
+    # 2. 만약 본문 태그가 없거나 내용이 비어있다면 meta 태그에서 시도 (백업용)
     if not body_content:
-        m2 = soup.select_one('meta[property="og:description"]')
-        if m2 and m2.get("content"):
-            body_content = m2.get("content", "").strip()
+        m1 = soup.select_one('meta[name="description"]')
+        if m1 and m1.get("content"):
+            body_content = m1.get("content", "").strip()
+
+    # 3. 사진만 있는 글처럼 아예 내용이 없다면 제목을 본문에 넣어 검색 가능하게 함
+    if not body_content or body_content == "":
+        body_content = f"[본문 요약 없음] {it['title']}".strip()
 
     et_vars = _parse_extravars_from_comments(detail_html)
     return {"body_content": body_content, "et_vars": et_vars}
@@ -353,9 +361,9 @@ def normalize_item_from_et_vars(item: dict):
     item["status"] = status_list[0] if status_list else ""  # DB 저장용(첫 요소)
 
 
-def fetch_and_parse_detail(url: str) -> dict:
-    html = fetch_html(url)
-    return parse_detail(html)
+def fetch_and_parse_detail(it: dict) -> dict:
+    html = fetch_html(it["url"])
+    return parse_detail(html, it)
 
 
 # ===== 실행 =====
@@ -378,7 +386,7 @@ def run_once():
 
             # 상세 수집
             try:
-                detail = fetch_and_parse_detail(it["url"])
+                detail = fetch_and_parse_detail(it)
                 it.update(detail)
             except Exception:
                 logger.exception(f"Detail fetch/parse failed: {it['url']}")

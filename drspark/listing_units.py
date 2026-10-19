@@ -398,6 +398,75 @@ _CHAIN_GAP = re.compile(r"^[\s,/:()\-]*(?:[a-z가-힣]{1,6}[\s,/:()\-]*)?$")
 _CHAIN_BREAK = re.compile(r"판매|팝니|팔아|가격|현재|지금|최종|급처|네고|할인|드려|드립|합니다|입니다")
 _CHAIN_SALE_AFTER = re.compile(r"^[^\d]{0,3}(?:에\s?(?:판매|팝|드|넘|내놓|올립)|으로\s?(?:판매|드|팝))")
 
+# 여러 물건 값을 더한 판매가: 'A, B 합해 35만원', 'A와 B 합쳐서 50에', 'A + B 합 28만원', '둘 다 같이 해서 100만', '통틀어 12만'.
+# '통합·적합·결합·혼합해서', '양도합니다'의 '합'은 아니다. 금액이 바로 뒤에 와야 한다('합해서 네고', '다 합치면 꽤 됩니다'는 아님)
+_SUM_PHRASE = re.compile(
+    r"(?:(?<![가-힣])|(?<=[다두둘개대벌])|(?<=전부))합\s?(?:해\s?서|해|하여|하면|쳐\s?서|쳐|치면|친|산\s?(?:해\s?서|하면|하여)?|계)?"
+    r"|(?<![가-힣])(?:도합|총합)|통틀어서?"
+    r"|(?:(?<![가-힣])(?:둘|셋|전부|모두)|(?<![가-힣])(?:두|세)\s?(?:개|대|벌|켤레|세트|가지)|(?<![\d.,/])[2-9]\s?(?:개|대|벌|켤레|세트|종|가지))"
+    r"\s?(?:다|모두|전부)?\s?(?:같이|함께)?\s?해\s?서"
+)
+_SUM_AMOUNT = re.compile(
+    r"[\s:=()]{0,3}(?:약\s?)?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)(?!\d|[.,]\d)\s?(만\s?(?:\d\s?천\s?)?(?:원)?|천\s?원|원)?"
+    r"(?!\s?(?:개|대|벌|켤레|족|쌍|세트|종|cm|mm|m(?![a-z가-힣])|kg|g(?![a-z])|회|번|시즌|년|일|%|인치|호|사이즈|도|분|시간|살|명))"
+)
+# 합계가 아닌 금액: 할인 폭('합쳐서 5만 네고해 드려요'), 기준가('합치면 70만원 넘는', '합쳐서 250만원 정도 줬던'),
+# 물건 값 + 택배비·수수료('택배비 합해서 35만')
+_SUM_DISCOUNT_AFTER = re.compile(
+    r"^\s?(?:원)?\s?(?:정도\s?|까지\s?)?(?:더\s?)?(?:네고|에누리|디씨|dc|할인)\s?(?:해\s?(?:드|줌|줄|요)|합니다|드|까지)"
+    r"|^\s?(?:원)?\s?(?:정도\s?)?(?:빼|깎|다운)"
+)
+_SUM_REF_AFTER = re.compile(r"^[^\d]{0,4}(?:넘|이상|어치|상당)")
+_SUM_FEE_BEFORE = re.compile(r"(?:택배|배송|택비|택포|운임|수수료|부가세|vat)\s?(?:비|비용)?\s?(?:까지|도|랑|이랑|와|과|를|을|포함|포함해서)?\s?$")
+_SENT_END = re.compile(r"[.!](?!\d)|니다|어요|아요|에요|해요")
+# 주요 품목 1종에 소품을 더한 합계('스키와 폴 합쳐서 50')는 덤과 같이 단품으로 본다(바인딩은 스키에만)
+_ADDON_CATS = {"poles", "bag", "gloves", "protector", "tuning", "other"}
+
+
+def _bare_amount(num: str) -> int | None:
+    """단위 없는 금액: 1만 미만은 만 원 단위로 쓴 값('합쳐서 50에 팝니다'), 그 이상은 원."""
+    try:
+        v = float(num.replace(",", ""))
+    except ValueError:
+        return None
+    return int(v * 10000) if v < 10000 else int(v)
+
+
+def _sum_price(text: str, cats: list[str], lp: int | None, apparel_set: bool) -> tuple[bool, bool]:
+    """여러 물건 합계 판매가 표현: (묶음 근거, 주요 품목 1종 + 폴·가방 같은 소품 합계만 있음).
+
+    합계 표현 바로 앞 문장 조각(40자)의 품목 단서를 제목·모델 단서와 합쳐 무엇을 더했는지 본다.
+    상하의 한 벌('자켓 바지 합쳐서', 제목·본문이 상하의 세트인 글)과 스키 + 바인딩·폴·가방은 묶음이 아니다.
+    다만 그 조각에 '두 벌', '2대' 같은 수량이 있으면 묶음이다.
+    """
+    hit = addon = False
+    for sm in _SUM_PHRASE.finditer(text):
+        am = _SUM_AMOUNT.match(text, sm.end())
+        if not am:
+            continue
+        v = _amount_value(am.group(1), am.group(2)) if am.group(2) else _bare_amount(am.group(1))
+        if v is None or v < 5000 or v > 50_000_000 or (lp and not 0.3 * lp <= v <= 3 * lp):
+            continue
+        after = text[am.end():am.end() + 14]
+        if _AMT_REF_BEFORE.search(text[max(0, sm.start() - 16):am.start(1)]) or _AMT_REF_AFTER.search(after) \
+                or _SUM_REF_AFTER.search(after) or _AMT_SOLD_AFTER.search(after) or _SUM_DISCOUNT_AFTER.search(after) \
+                or _SUM_FEE_BEFORE.search(text[max(0, sm.start() - 14):sm.start()]) \
+                or _ILGWAL_OTHER.search(text[max(0, sm.start() - 40):sm.start()]):
+            continue
+        w = _SENT_END.split(text[max(0, sm.start() - 40):sm.start()])[-1]
+        wc = category_hints(w)
+        majors = {c for c in (*cats, *wc) if c in _MAJOR}
+        addons = set(wc) - _MAJOR
+        if not _MULTI_QTY.search(w):
+            if majors <= {"apparel"} and (apparel_set or _APPAREL_SET.search(w) or re.search(r"상의.{0,15}하의", w)):
+                continue
+            if len(majors) == 1 and addons and addons <= (_ADDON_CATS | ({"binding"} if majors == {"ski"} else set())) \
+                    and majors != {"apparel"}:
+                addon = addon or bool(addons & _ADDON_CATS)  # 스키 + 바인딩은 with_binding이 맡는다
+                continue
+        hit = True
+    return hit, addon and not hit
+
 
 def _amount_value(num: str, unit: str) -> int | None:
     n = num.replace(",", "")
@@ -514,6 +583,8 @@ def bundle_flags(title: object, model_serial: object = None, spec: object = None
     - 상하의 세트(의류만) → is_apparel_set, 묶음 아님
     - 스키/부츠 + 폴·가방 '드림/포함' → has_extras, 묶음 아님
     - 주요 품목 2종 이상(스키+부츠, 헬멧+고글 등), '일괄', '2대/2벌', 본문 물건별 가격 2개 이상, '각/개당' → 묶음
+    - 여러 물건 값을 더한 판매가('A, B 합해 35만원', '둘 다 해서 100만') → 묶음(sum_price). 상하의 한 벌,
+      스키 + 바인딩·폴·가방의 합계는 묶음이 아니다(_sum_price)
     - 본문의 조건부 금액('타게 되면 60만', '네고 시', '택포')·참고 금액(정가·매장가·구매가·이전 호가)은
       물건별 가격으로 세지 않는다(body_prices)
     """
@@ -597,6 +668,10 @@ def bundle_flags(title: object, model_serial: object = None, spec: object = None
         reasons.remove("ilgwal")
 
     set_body = only_apparel and not set_title and bool(_APPAREL_SET_BODY.search(b))
+    # 'A, B 합해 35만원', '둘 다 해서 100만'처럼 여러 물건 값을 더한 판매가(품목어 없이 브랜드·시즌만 적은 글도 잡는다)
+    sum_hits = [_sum_price(x, cats, lp, set_title or set_body) for x in (t, b)]
+    if any(h for h, _ in sum_hits):
+        reasons.append("sum_price")
     is_apparel_set = set_title or set_body
     if set_title:
         # 상하의 세트의 '상의 X원 / 하의 Y원'은 한 벌 안의 구성 → 묶음 사유에서 뺀다
@@ -617,6 +692,9 @@ def bundle_flags(title: object, model_serial: object = None, spec: object = None
     has_extras = bool(majors) and any(c in cats for c in ("poles", "bag", "gloves", "protector")) and \
         len(set(majors)) == 1 and not only_apparel
     if not has_extras and majors and _EXTRAS.search(t):
+        has_extras = True
+    if not has_extras and "sum_price" not in reasons and any(a for _, a in sum_hits):
+        # '스키와 폴 합쳐서 50': 주요 품목 1종 + 소품 합계
         has_extras = True
     is_partial = bool(_PARTIAL.search(t) or _PARTIAL.search(m))
 

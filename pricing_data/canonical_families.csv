@@ -1,0 +1,456 @@
+﻿family_id,brand,brand_name,family,category,n_models,n_posts,notes,sources
+aleck/nunchucks,aleck,Aleck,Nunchucks,other,1,1,헬멧 장착형 블루투스 오디오(Aleck). 판매자는 스미스 제품으로 표기.,
+alpina/alto,alpina,Alpina,Alto,helmet,1,1,알피나 Alto 바이저 헬멧(Alto V 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+alpina/cheos,alpina,Alpina,Cheos,helmet,1,1,알피나 Cheos 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+arcteryx/alpha,arcteryx,Arc'teryx,Alpha,apparel,1,4,알파인 하드쉘,
+arcteryx/atom,arcteryx,Arc'teryx,Atom,apparel,2,3,"인슐 미드레이어(Atom Hoody, Atom SL Hoody)",
+arcteryx/beta,arcteryx,Arc'teryx,Beta,apparel,1,1,Arc'teryx Beta 쉘 자켓 라인,
+arcteryx/kyanite,arcteryx,Arc'teryx,Kyanite,apparel,1,1,플리스 미드레이어,
+arcteryx/macai,arcteryx,Arc'teryx,Macai,apparel,1,1,다운 인슐 스키 자켓,
+arcteryx/nita,arcteryx,Arc'teryx,Nita,apparel,1,1,여성 스키 팬츠 라인,
+arcteryx/rush,arcteryx,Arc'teryx,Rush,apparel,1,3,프리라이드 고어텍스 프로 쉘,
+arcteryx/sabre,arcteryx,Arc'teryx,Sabre,apparel,4,12,남성 스키 쉘/인슐 라인(GORE-TEX),https://steep.jp/en/gear/86954/ https://www.evo.com/products/225048-arc-teryx-sabre-bibs-men-s
+arcteryx/sentinel,arcteryx,Arc'teryx,Sentinel,apparel,3,3,여성 스키 라인(자켓/인슐 팬츠/인슐 아노락),
+armada/stage,armada,Armada,Stage,apparel,1,4,"Armada Stage Suspenders(집게식 스키바지 서스펜더). 판매글 정상가 10만원. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+atomic/bent,atomic,Atomic,Bent,ski,1,1,구 Bent Chetler 라인. 23/24부터 'Bent'로 이름이 바뀜(웹 확인 못함).,
+atomic/bluester,atomic,Atomic,Bluester,ski,3,4,"2014~2016 무렵 아시아 시장 기술(데모) 라인. 매물 본문 기준, 웹 확인 못함.",
+atomic/cloud,atomic,Atomic,Cloud,ski,3,5,"여성용 피스트 라인(C7, C8, C9, C11 등).",https://joyleports.com/category/atomic-%EC%95%84%ED%86%A0%EB%AF%B9/51/ https://sportscore.co.kr/category/%EC%95%84%ED%86%A0%EB%AF%B9/117/?page=2
+atomic/hawx,atomic,Atomic,Hawx,boots,18,58,Hawx Prime(라스트100)/Magna(102)/Ultra(98)/JR 라인을 하나의 패밀리로 묶고 라인·플렉스·BOA·성별은 모델로 구분. 웹 검색 한도 소진으로 공식 페이지 미검증(도메인 지식 기반).,
+atomic/live-fit,atomic,Atomic,Live Fit,boots,1,1,와이드 라스트 컴포트 부츠 라인(2010년대 중후반). 미검증.,
+atomic/redster,atomic,Atomic,Redster,ski,21,272,"아토믹 레이스/카빙 라인. 한국·일본 전용 모델(S9i Pro, S9i, S8i, SC, XI, CS, MI, TI 등) 포함. 같은 이름의 부츠·헬멧 라인은 카테고리가 달라 이 패밀리에 넣지 않음.",https://joyleports.com/category/atomic-%EC%95%84%ED%86%A0%EB%AF%B9/51/ https://press.atomic.com/pressreleases/ready-for-saalbach-and-beyond-atomic-launches-the-new-redster-range-for-2025-slash-26-3367614 https://sportscore.co.kr/category/%EC%95%84%ED%86%A0%EB%AF%B9/117/ https://zakui.co.kr/category/atomic-%EC%95%84%ED%86%A0%EB%AF%B9/2120/
+atomic/redster-boots,atomic,Atomic,Redster (boots),boots,4,10,"레이스 계열 부츠(Redster Club Sport→CS, JR, 월드컵/STI 등). 스키 Redster와 카테고리가 달라 별도 패밀리로 둠. 미검증.",
+atomic/remedy,atomic,Atomic,Remedy,boots,1,1,판매글에 '아토믹 레이싱부츠 레메디 2526 130'으로만 확인됨. 공식 명칭 웹 미검증(검색 한도 소진).,
+atomic/revent,atomic,Atomic,Revent,helmet,1,1,아토믹 헬멧 라인. 'revent visor jr' 판매글 기재. 미검증.,
+atomic/rs-pack,atomic,Atomic,RS Pack,bag,1,3,레드스터 계열 부츠/장비 백팩(용량별 모델). 미검증.,
+atomic/savor,atomic,Atomic,Savor,apparel,1,3,아토믹 의류 Savor(세이버) 라인. 고어텍스 재킷·팬츠.,
+atomic/tracker,atomic,Atomic,Tracker,boots,1,1,투어링/프리라이드 부츠(2012~2014 전후). 미검증.,
+atomic/x,atomic,Atomic,X (bindings),binding,1,2,"아토믹 X 시리즈 레이스 바인딩(X 12 GW, X 16 VAR, X 19 등). 미검증.",
+augment/gs,augment,Augment,GS,ski,0,1,Augment 대회전(GS) 레이스 스키. 공식 라인명 미확인,
+augment/race,augment,Augment,Race,ski,1,3,"Augment Race Carving(164 R13, 123-70-104). 공식 페이지 확인 불가",
+augment/sl,augment,Augment,SL,ski,1,4,Augment 회전(SL) 레이스 스키. 공식 라인명 미확인(augment.ski는 Van Deer로 리다이렉트),
+backcountry-access/bc-link,backcountry-access,BCA,BC Link,other,1,1,BCA(Backcountry Access) 그룹 무전기 BC Link. 1.0(초기형)/2.0 구분.,
+bc-stream/r,bc-stream,BC Stream,R,snowboard,1,2,일본 BC Stream 카빙용 해머데크 R 계열. 매물 표기 'BC stream R2/R-2'. 미검증.,
+black-crows/ferus,black-crows,Black Crows,Ferus,apparel,1,3,"Black Crows Ferus 라인(Ferus Mechanical Jacket & Pants). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+black-crows/freebird,black-crows,Black Crows,Freebird,apparel,1,3,"Black Crows Freebird 라인(Freebird Xpore Jacket & Pants, 쉘). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+black-crows/navis,black-crows,Black Crows,Navis,ski,1,1,Black Crows 올마운틴/프리투어링 라인. Navis Freebird는 투어링 버전.,
+black-diamond/dawn-patrol,black-diamond,Black Diamond,Dawn Patrol,apparel,0,1,블랙다이아몬드 투어링 의류 라인. '킹피셔'는 색상명으로 피셔 브랜드 아님.,
+black-diamond/razor,black-diamond,Black Diamond,Razor,poles,0,1,블랙다이아몬드 Razor 카본 폴 계열(교체용 하단 샤프트 매물). 세부 모델 미확인.,
+black-diamond/recon,black-diamond,Black Diamond,Recon,apparel,3,5,"블랙다이아몬드 Recon 스키웨어 라인. 매물은 Recon Insulated 상하의 세트(남/여). 매장 구매 25/26, 신품가 세트 약 150만원대(판매글).",
+blackbriar/alpine,blackbriar,Blackbriar,Alpine Backpack,bag,1,1,판매글 표기 18L 알파인 백팩 3.0(웹 미검증),
+blackbriar/coach-vest,blackbriar,Blackbriar,Coach Vest,apparel,0,2,"Blackbriar 코치 베스트(2.0/3.0, 라디오 포켓)",
+blackbriar/contain,blackbriar,Blackbriar,Contain,bag,2,1,"컨테인 65L 백팩 3.0(BASIC/LIMITED), 컨테인 X 65L/50L",https://one8.co.kr/category/blackbirar-%EB%B8%94%EB%9E%99%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B4/6217/
+blackbriar/extreme,blackbriar,Blackbriar,Extreme,bag,5,9,"익스트림 대용량 백팩 2.0/3.0, 익스트림 이큅먼트 백팩 7.0, 어드벤처 7.0 등",https://blackbriar.co.kr/shop_view/?idx=272 https://one8.co.kr/category/blackbirar-%EB%B8%94%EB%9E%99%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B4/6217/
+blackbriar/range,blackbriar,Blackbriar,Range,bag,1,1,"레인지 더플 백팩 60L/80L, 레인지 디바이드, 레인지 휠",https://one8.co.kr/category/blackbirar-%EB%B8%94%EB%9E%99%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B4/6217/
+blizzard/alight,blizzard,Blizzard,Alight,ski,0,1,여성 카빙 라인(Alight 7.2/7.4/7.7/8.2 등). 'Alight Pro' 명칭은 확인되지 않음.,https://www.evo.com/products/176876-blizzard-alight-7-7-skis-tlt10-demo-bindings-women-s-2021
+blizzard/black-pearl,blizzard,Blizzard,Black Pearl,ski,1,1,여성 전용 올마운틴 라인.,https://www.evo.com/products/253043-blizzard-black-pearl-84-skis-women-s-2026
+blizzard/firebird,blizzard,Blizzard,Firebird,ski,10,104,블리자드 레이스 카빙 라인. 이 청크에서는 묶음 매물의 주품목으로만 나옴.,https://www.schneehoehen.de/skitest/jugend-gs/blizzard-firebird-gs-racing-2025-2026 https://www.schneehoehen.de/skitest/race-sl/blizzard-firebird-src-piston-plate-2025-2026 https://www.skiessentials.com/products/2025-blizzard-firebird-wrc-skis-with-bindings-102154 https://www.skipass.com/guide-matos/ski/2025/blizzard/firebird-sl-r-d-1.html
+blizzard/rustler,blizzard,Blizzard,Rustler,ski,1,1,프리라이드/올마운틴 라인(Rustler 9/10/11).,https://comorsports.com/products/blizzard-rustler-9-ski-2026
+blizzard/thunderbird,blizzard,Blizzard,Thunderbird,ski,1,3,"프론트사이드 카빙 라인(R13/R15/R18, R13 LTD 등).",https://www.skiessentials.com/2023-ski-test/skis/2023-blizzard-thunderbird-r13
+bluemoris/potion,bluemoris,Bluemoris,POTION,ski,3,13,일본 수제 스키 브랜드 BLUEMORIS(블루모리스). S POTION = 우드코어+티타늄 2장 회전형(반드컵) 스키. 패밀리명 POTION은 모델명에서 추정(공식 확인 못함).,
+bogner/bamboo,bogner,Bogner,Bamboo,ski,1,7,"보그너(BOGNER) 스키, 판매글 기준 Bamboo 코어+티타날 올라운드(VT8). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+bogner/fire-ice,bogner,Bogner,Fire+Ice,apparel,1,1,"보그너 세컨드 라인 FIRE+ICE. 국내 품번 BF1F314MF(자켓)/B91F314MF(팬츠). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+bolle/nevada,bolle,Bollé,Nevada,goggle,1,1,볼레 Nevada 고글(Neo 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+booster/booster-strap,booster,Booster,Booster Strap,boots,1,2,부스터 스트랩(Standard/Expert/World Cup 등).,
+briko/aran,briko,Briko,Aran,helmet,1,2,,
+briko/faito,briko,Briko,Faito,helmet,1,2,,
+briko/mammoth,briko,Briko,Mammoth,helmet,1,1,,
+briko/stromboli,briko,Briko,Stromboli,helmet,1,1,바이저 헬멧(model BVBW-06),
+briko/vulcano,briko,Briko,Vulcano,helmet,2,2,레이싱 헬멧 라인(Vulcano FIS / 2.0),
+bsrabbit/high-performance,bsrabbit,BSRABBIT,High Performance,apparel,1,1,"비에스래빗(BSRABBIT) 하이퍼포먼스 시리즈 3L 쉘 보드복. 판매글 정상가 상하 72만원. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+burton/ak,burton,Burton,[ak],apparel,0,1,Burton [ak] 아웃웨어 라인,
+capranea/blade,capranea,Capranea,Blade,apparel,0,4,"Capranea BLADE2 자켓 + 레귤러핏 팬츠 남성 세트(22/23). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+capranea/eiger,capranea,Capranea,Eiger,apparel,1,1,"Capranea Eiger Jacket. 판매글: 자켓 166만원·바지 86만원 수준. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+carve/demo,carve,CARVE,Demo,apparel,0,2,"카브 데모(기술선수권·데모팀) 모델 스키복. 판매자 표기 '데모', '데몬복'(오기). 품번 미확인이라 모델 미정의.",
+carve/down-jacket,carve,CARVE,Duck Down Jacket (CDJ),apparel,1,10,"카브 덕다운 자켓 CDJ25(24/25). 공식몰 소비자가 490,000원, 판매가 392,000원.",https://carvekorea.com/product/list.html?cate_no=51
+carve/hard-shell,carve,CARVE,Hard Shell (CHS/CHP),apparel,2,71,"카브 무충전 하드쉘 스키복(Dermizax 3Layer). 세트/자켓 코드 CHS(25/26=CHS26), 바지 CHP. 판매자 표기 '하드쉘/쉘/쉘자켓/쉘바지/하트쉘(오타)'. 25/26 색상 PBL·BK·HPK·MOB·GBE·KBK·NMGR·GBK·NBL.",https://carvekorea.com/ https://carvekorea.com/product/list.html?cate_no=111 https://carvekorea.com/product/하드쉘-세트-chs25/1052/category/1/display/2/
+carve/junior,carve,CARVE,Junior,apparel,0,0,"카브 주니어 스키복(130·150·160 사이즈). 판매글 코드 JPM25(주니어 퍼포먼스로 추정, 24/25). 웹 검색 한도 소진.",
+carve/performance,carve,CARVE,Performance (CPM),apparel,2,109,"카브(CARVE, (주)카브스포츠) 최상위 스키복 세트 라인. 판매자 표기 '퍼포먼스 라인/퍼포라인/빕팬츠'. 코드 CPM+연도2자리+변형(A/B/C)+색상(예 CPM26A NMG). 연도 yy = 시즌 종료연도(CPM26A=25/26). 하의는 빕팬츠(멜빵) 기본, 일반팬츠로 교체 구매 사례 있음. Dermizax 멤브레인+3M Thinsulate 80g. 아동판은 JPM 코드.",https://carvekorea.com/product/list.html?cate_no=45 https://carvekorea.com/product/list.html?cate_no=50&page=5 https://carvekorea.com/product/list.html?cate_no=66 https://carvekorea.com/product/카브-스키복-세트-cpm25b-reb/1066/category/1/display/2/ https://carvekorea.com/product/카브-스키복-세트-cpm26a-bk/1107/category/1/display/2/
+carve/racing-suit,carve,CARVE,Racing Suit,apparel,1,21,"카브 레이싱의류: 성인 원피스 CAS26(FIS)·CAS902(FIS)/CRS20(TR), 투피스 CTS26, 주니어 CJS902(FIS)/CJS20(TR), 주니어 투피스 CJTS26. FIS 인증 여부·성인/주니어가 다른 모델.",https://carvekorea.com/product/list.html?cate_no=77
+carve/standard,carve,CARVE,Ski Wear standard line (CSM/CDT/CPT/CPP/CSW),apparel,5,35,"카브 일반(비퍼포먼스) 스키복 라인. 판매자 표기 '일반라인'. 세트 CSM·CDT(디자인 계열 2종), 바지 CPT(일반 스키바지)·CPP(오버핏 팬츠)·CDP(CDT용 바지), 여성 세트 CSW. 코드 연도 yy = 시즌 종료연도. 소재는 퍼포먼스와 같은 Dermizax+Thinsulate 80g 표기.",https://carvekorea.com/product/list.html?cate_no=36 https://carvekorea.com/product/list.html?cate_no=51 https://carvekorea.com/product/list.html?cate_no=52 https://carvekorea.com/product/카브-스키복-세트-cdt26-reb/1121/category/1/display/2/ https://carvekorea.com/product/카브-스키복-세트-csm25/1265/category/1/display/2/
+colmar/3l-shell,colmar,Colmar,3L Shell,apparel,5,21,"콜마 무충전(언패디드) 3레이어 스트레치 쉘 라인(원단 코드 9XY). 남성 자켓 1323(FW23)·1364(FW25), 팬츠 0733(FW24~FW25), 여성 자켓 2903(FW23). 국내 판매글의 '콜마 쉘'은 이 라인을 가리키는 것으로 판단(패딩 3L 쉘과 구분).",https://colmar.com/noname/13239XYIN23640.html https://www.colmar.com/gb/unlined-triple-layer-ski-trousers/07339XYIN257550.html https://www.colmar.com/us/3l-ski-shell-jacket/13649XYIN25740.html
+colmar/corduroy,colmar,Colmar,Corduroy,apparel,0,1,"콜마 코듀로이(골덴) 원단 패딩 스키웨어 라인(예: Padded corduroy ski pants 0729 4XE, FW22). 여성 상하의로 주로 거래.",https://www.colmar.com/gb/padded-corduroy-ski-pants/07294XEIN22579.html
+colmar/ffs-team,colmar,Colmar,French National Ski Team (FFS),apparel,0,8,콜마는 프랑스 스키연맹(FFS) 알파인 대표팀 공식 의류 공급사. 선수 지급 팀복과 시즌별 레플리카(자켓·살로펫·소프트쉘·미들레이어) 포함. 시즌마다 디자인·코드가 달라 정확한 모델 미정의.,https://colmar.com/rs/french-national-team-softshell/B25926XZIN2401.html https://www.megeve-tourisme.fr/en/?p=42204 https://www.sgieurope.com/colmar-will-replace-vuarnet-as-the-official-supplier-of-skiwear-/30947.article
+colmar/golden-eagle,colmar,Colmar,Golden Eagle,apparel,1,1,"콜마 남성 패딩 스키 자켓 'Golden Eagle'(코드 1385 1VC, FW21). 재활용 메카니컬 스트레치 겉감 + Univa Eco 충전.",https://colmar.com/noname/13851VCIN2116748.html https://www.glisshop.com/vetement-ski-homme/colmar/golden-eagle-peacock-black-white20436270
+colmar/sci,colmar,Colmar,"SCI (ski collection, style-code items)",apparel,1,1,콜마 공식몰의 스키 라인 표기 'Colmar SCI'. 고유 라인명 없이 4자리 스타일 코드로만 식별되는 제품을 담는 용도. 패밀리 단독 라벨에는 쓰지 않음.,https://www.prisjakt.no/s/colmar-jacket/
+crnk/skadi,crnk,CRNK,Skadi,helmet,0,1,크랭크(CRNK) 스카디 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+dainese/avera,dainese,Dainese,Avera,apparel,0,1,판매글 표기 Avera 자켓(웹 미검증),
+dainese/dermizax,dainese,Dainese,Dermizax (S00x/P00x),apparel,1,2,Dermizax DX/EV 멤브레인 상위 라인. 자켓 S003 Dermizax DX Core Ready(2047400012) 등,https://dainese.com/us/en/wintersports/mens-s003-dermizax-dx-core-ready-ski-jacket-2047400012.html
+dainese/etesia,dainese,Dainese,Etesia,apparel,1,1,Aerosense-Dry 멤브레인 남성 자켓,https://dainese.com/us/en/etesia-aerosense-dry---mens-ski-jacket-2047400029022.html
+dainese/etra,dainese,Dainese,Etra,apparel,1,3,Etra Aerosense-Dry Core Ready 자켓,https://www.dainese.com/etra-aerosense-dry---mens-ski-jacket-204740003672M.html https://www.snowleader.com/en/etra-aerosense-dry-core-ready-jacket-racing-red-black-DAIN00157.html
+dainese/hp-diamond,dainese,Dainese,HP Diamond,apparel,1,2,Dainese HP Diamond 스키 자켓(Flexagon 등보호대 내장),https://www.dainese.com/hp-diamond-ii-s-20474952201G.html
+dainese/hp1,dainese,Dainese,HP1,apparel,1,3,구 최상위 라인 HP1(M1/M2/M3/RC). HP1 RC 출시가 €899,https://dainese.com/gb/en/hp1m2-204749417.html https://inthesnow.com/gear/dainese-hp1-rc-ski-jacket-review
+dainese/onira,dainese,Dainese,Onira,apparel,0,0,Dainese Onira Aerosense-Dry 스키 팬츠,
+dainese/rhyolite,dainese,Dainese,Rhyolite,protector,1,1,Dainese Rhyolite 상체 보호 재킷,https://www.dainese.com/us/en/rhyolite-2-safety-jacket-203879689.html
+dainese/scarabeo,dainese,Dainese,Scarabeo,protector,0,1,Dainese Scarabeo 주니어 보호 재킷 계열,https://www.dainese.com/es/en/ski/kids/scarabeo-r001-sj-204876025.html
+dainese/speed-demon-lab,dainese,Dainese,Speed Demon Lab,apparel,1,2,Speed Demon Lab 자켓(Aerosense-Dry)·DomeAir Pro. 판매글: 25/26 자켓+팬츠 소비자가 147만원,https://dainese.com/us/en/etesia-aerosense-dry---mens-ski-jacket-2047400029022.html https://www.snowleader.com/en/speed-demon-lab-jacket-m-racing-red-DAIN00169.html
+dalbello/drs,dalbello,Dalbello,DRS,boots,6,42,"레이싱 부츠 라인. 월드컵 플러그(DRS WC XS/SS/S/M/H), 컨슈머(DRS 140(Pro)/130/110/90 LC), 주니어(DRS 75, DRS 60 JR) 포함.",https://dalbelloboots.com/en-cy/p/drs-130-boots-2025 https://dalbelloboots.com/en-kr/c/ski-boots/drs-ski-boots/
+dalbello/ds,dalbello,Dalbello,DS,boots,2,3,"입문~중급 오버랩 부츠 라인. DS MX(라스트 104), DS AX(라스트 101~102), LTD/W 변형.",https://www.blue-tomato.com/en-AT/product/Dalbello-DS+Ax+90+GW+2020-588458/ https://www.skiessentials.com/products/2023-dalbello-ds-mx-80-gw-ski-boots
+dalbello/il-moro,dalbello,Dalbello,Il Moro,boots,1,2,"3피스 카브리오 프리라이드 부츠. 구형 Il Moro MX 90/110, 25/26 Il Moro MV/110/Pro 3D Wrap.",https://www.evo.com/products/254688-dalbello-il-moro-110-3d-wrap-ski-boots-2026
+dalbello/veloce,dalbello,Dalbello,Veloce,boots,3,15,"올마운틴 오버랩 부츠 라인(Veloce GW/MV/MAX). 25/26부터 BOA 서브라인 Veloce Space(Dual=다이얼 2개, 무표기=싱글 BOA) 추가.",https://evo.com/alpine-ski-boots/dalbello-veloce-130-gw https://steep.jp/en/gear-item/105709/
+dalbello/voodoo,dalbello,Dalbello,Voodoo,boots,0,1,구형(2000년대) 카브리오 프리라이드 부츠. 웹 확인 못함(검색 한도).,
+db/hugger,db,Db,Hugger,bag,1,1,"Db(구 Douchebags, 한국 표기 '두시백') Hugger 백팩/더플. 용량별 모델(30L/60L 등).",
+descente/canada-team,descente,Descente,Canada Team,apparel,1,1,알파인 캐나다 팀 스타일(스폰서 패치) 레플리카. 데상트코리아 품번 S9412SSJN1(여성 자켓). 웹 확인 못함(검색 한도).,
+descente/sio,descente,Descente,S.I.O,apparel,6,153,"데상트 독자 패턴 S.I.O 스키웨어 라인(인슐레이티드/쉘 자켓, 빕팬츠). 국내에서 '데모복·데모라인·금장·최상위'로 통칭. 일본 내수 품번 접두: DWUU=22/23, DWUW=23/24, DW4F=24/25, DW5F=25/26. 데상트코리아 구품번(S8…)도 S.I.O 표기.",https://search.kakaku.com/S.I.O%20INSULATED%20JACKET/ https://www.yodobashi.com/maker/0000005851/ https://www.yodobashi.com/product/100000001009062611/
+descente/swiss-team,descente,Descente,Swiss Ski Team,apparel,1,32,"스위스 국가대표팀(Swiss-Ski) 공식 서플라이어 레플리카·라이선스 라인(팀복 상하의, 레플리카 인슐레이티드/다운 자켓, 미들러, 40주년 그래픽). 해외 품번 예: DWMYGK20(24/25 Swiss Replica), DW5FJK02MU(25/26 Swiss Insulated).",https://sportofino.com/en/men-s-insulated-ski-jacket-descente-swiss-replica-dwmygk20-sui https://www.bobssportschalet.com/descente-ski/descente-swiss-insulated-jacke-169888 https://www.skiessentials.com/products/descente-swiss-insulated-men-s-jacket-dw5fjk02mu
+dotout/did,dotout,Dotout,Did,apparel,1,2,"닷아웃(dotout, 이탈리아) Did 여성 스키 팬츠(안감 메리노울). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+dotout/wool-project,dotout,Dotout,Wool Project,apparel,1,4,"닷아웃 WOOL PROJECT 메리노울 남성 스키복 상하의. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+dps/kaizen,dps,DPS,Kaizen,ski,1,2,"DPS Kaizen 시리즈(스플릿 코어+풀 카본, 공장 PHANTOM Glide 베이스 처리). 매물 'DPS 카이젠 112 팬텀글라이드 모델'.",https://www.dpsskis.com/products/kaizen-112
+dps/koala,dps,DPS,Koala,ski,1,1,DPS 파우더 스키,
+dps/pagoda-tour,dps,DPS,Pagoda Tour,ski,1,2,DPS 경량 투어링/프리라이드 라인. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+dragon/pxv,dragon,Dragon,PXV,goggle,1,1,드래곤 PXV 고글(후속 PXV2 별도).,
+dragon/r1,dragon,Dragon,R1,goggle,1,1,Dragon Alliance 고글. 스미스 청크에 섞인 타 브랜드 매물.,
+dynafit/race-way,dynafit,Dynafit,RACE-WAY,apparel,1,1,다이나핏(국내 라이선스) 스키복 RACE-WAY 라인. 판매글 표기만 근거(웹 검증 미실시: 검색 한도 소진).,
+dynastar/e-lite,dynastar,Dynastar,E-Lite,ski,0,1,"여성용 올마운틴·피스트 라인(E-Lite 7 등, Xpress 바인딩 시스템). 세부 모델 번호 미기재 매물은 패밀리까지만.",https://en.neveitalia.it/test/news/ski-test-2020-21-eccovi-la-gamma-dynastar
+dynastar/omeglass,dynastar,Dynastar,Omeglass (구형),ski,1,3,"2000~2010년대 구형 Omeglass 계열(Omeglass Ti, Team Omeglass 64 주니어, Fluid 인터페이스 Speed Omeglass 등). 현행 Speed Omeglass Master/WC FIS SL은 dynastar/speed.",https://www.freeride.com/gear/skis/dynastar-team-omeglas-64.html https://www.skipass.com/guide-matos/dynastar/speed-omeglass-wc.html
+dynastar/speed,dynastar,Dynastar,Speed,ski,6,77,"다이나스타 Speed 컬렉션. 레이스(Speed Omeglass WC FIS SL, Speed Course WC (FIS) GS, Speed Team 주니어), 레이스카버(Speed (Omeglass) Master SL, Speed (Course) Master GS), 소비자용 Speed 263~963 포함. Speed Zone(2018~2021)은 별도 패밀리.",https://en.neveitalia.it/test/news/ski-test-2019-20-due-medaglie-per-dynastar https://en.neveitalia.it/test/news/ski-test-2020-21-eccovi-la-gamma-dynastar https://skiracing.com/dynastar-racing-test-center-returns-to-mount-hood/
+dynastar/speed-zone,dynastar,Dynastar,Speed Zone,ski,1,2,"2018/19~2020/21 올라운드·카빙 라인(Speed Zone 14/12/10 Ti, Speedzone 4x4). 이후 Speed 563/763 등 숫자 라인으로 대체.",https://en.neveitalia.it/test/news/ski-test-2019-20-due-medaglie-per-dynastar https://en.neveitalia.it/test/news/ski-test-2020-21-eccovi-la-gamma-dynastar
+elan/ace,elan,Elan,Ace,ski,6,30,"Elan Ace 컬렉션: SLX/GSX World Cup(FIS), SLX(Fusion X 데모), GSX Team(주니어 레이스), Bloodline(모글)",https://elansports.com/products/ace-slx https://elansports.com/products/ace-slx-world-cup https://kunstadt.com/products/elan2024acebloodlineski
+elan/jett,elan,Elan,Jett,ski,1,1,주니어 올라운드 스키,https://ridgeandriver.com/products/elan-jett-jr-shift-el-7-5-130-25-26
+elan/rc-ace,elan,Elan,RC Ace,ski,1,2,주니어 레이스 입문 라인(RC Ace / RC Ace JRS),https://elansports.com/us_en/rc-ace-aelljw24
+electric/eg2,electric,Electric,EG2,goggle,1,2,일렉트릭 EG2 고글. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+energiapura/diamond,energiapura,Energiapura,Diamond,apparel,0,1,"에너지아푸라 'Diamond' 스키복(판매글 표기, 신품가 156만원 기재). 상의/세트 여부 미확인, 미검증.",
+energiapura/holvik,energiapura,Energiapura,Holvik,apparel,0,1,"에너지아푸라 Holvik 스키복(판매자: 레이싱 특화). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+energiapura/simplon,energiapura,Energiapura,Simplon,apparel,1,1,"에너지아푸라 Simplon 주니어 자켓(+Dresden 주니어 팬츠 세트). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+ennue/coal,ennue,Ennue,Coal,apparel,1,2,"엔뉴(ennue/annue, 영문 철자 미확인) M Coal Shell Jacket + M Turf Shell Pants 세트. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+evoc/gear-backpack,evoc,Evoc,Gear Backpack,bag,1,1,"에복(EVOC) Gear Backpack(부츠·장비 백팩), 용량별 60/90 등.",
+faction/dictator,faction,Faction,Dictator,ski,1,1,Faction 올마운틴 스키,
+falke/maximum-warm,falke,Falke,Maximum Warm,apparel,1,5,"Falke 남성 베이스레이어 Maximum Warm 라인. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+falke/wool-tech,falke,Falke,Wool-Tech,apparel,1,5,"Falke 울테크(Wool-Tech) 베이스레이어 라인. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+fischer/rc-one,fischer,Fischer,RC One,boots,2,5,"중급 HV 부츠 라인(RC One 9.0, RC 85 등). 25/26 카탈로그에서 RC 90/RC 85(RC ONE 쉘).",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://sportshopen.com/en-it/article/rc-one-90-red
+fischer/rc4-boa,fischer,Fischer,RC4 BOA (Vacuum),boots,2,12,"RC4 xxx MV/LV BOA VAC GW 부츠. 플렉스별로 모델 구분(130, 120, 110, 105W, 95W). MV/LV 라스트 차이는 같은 모델로 묶음. Carbon Pro(130+)는 별도.",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf
+fischer/rc4-noize,fischer,Fischer,RC4 Noize,ski,3,7,"25/26 신규 Noize Control 라인: RC4 Noize, Noize LT/ST(Pro, Superflex), Noize GS(FIS Junior), Noize GS/SL Jr. WC SC/CT의 후속 성격.",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://phoenixsports.co.kr/category/fischer/112/ https://phoenixsports.co.kr/category/fischer/112/?page=2 https://steep.jp/en/gear-item/105557 https://www.skiessentials.com/2026-ski-test/skis/2026-fischer-rc4-noise-st
+fischer/rc4-podium,fischer,Fischer,RC4 Podium,boots,2,5,"레이스 부츠 라인: Podium RD(WC), Podium GT(96-98mm), Podium LT(주니어 70/90/110).",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://skicanadamag.com/?p=13198
+fischer/rc4-power,fischer,Fischer,RC4 Power,ski,2,3,"온피스트 올라운드 라인(RC4 Power AR, RC4 Power TI AR). 23/24~24/25 판매.",https://phoenixsports.co.kr/category/fischer/112/?page=2 https://www.snowleader.com/en/rc4-power-ar-rs-10-pr-FISC00375.html https://www.snowleader.com/en/rc4-power-ti-ar-rs-10-pr-2025-FISC00399.html
+fischer/rc4-pro,fischer,Fischer,RC4 Pro,ski,1,1,주니어 RC4 Pro JRS(120-150) 및 성인 RC4 Pro TI AR 포함.,https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://phoenixsports.co.kr/category/fischer/112/?page=3
+fischer/rc4-race,fischer,Fischer,RC4 Race,ski,1,1,주니어 입문 레이스 스키 RC4 Race Jr (JRS 시스템).,https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://phoenixsports.co.kr/category/fischer/112/ https://phoenixsports.co.kr/category/fischer/112/?page=2
+fischer/rc4-the-curv,fischer,Fischer,RC4 The Curv (boots),boots,2,4,RC4 The Curv 120/130 Vacuum 부츠(약 2018/19~2022/23). 스키 The Curv와 별개.,
+fischer/rc4-worldcup,fischer,Fischer,RC4 Worldcup,ski,11,106,"피셔 레이스/레이스카버 라인. SL·GS(FIS·Masters·Jr), SC(데모급), SC Pro, CT, RC 포함. 25/26부터 SL은 'RC4 Worldcup Noize SL'로 교체. 한국 장터의 '피셔 월드컵'은 대개 WC SL 165.",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://phoenixsports.co.kr/category/fischer/112/?page=2 https://www.altitude-sports.com/p/fischer-rc4-worldcup-sl-men-m-plate-fis-fia040231
+fischer/rc4-z,fischer,Fischer,RC4 Z (bindings),binding,1,2,RC4 Z9~Z20 바인딩.,https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf
+fischer/the-curv,fischer,Fischer,The Curv,ski,2,4,"프런트사이드 카빙 라인. 19/20 RC4 The Curv(CB) → 22/23~ The Curv DTX(M-Track)/DTI(Allride)/Ti/Power, 25/26 The Curv M-Plate. 부츠 'RC4 The Curv'와 별개.",https://goldwin.co.jp/static/full/fischer/pdf/book/fischer_alpine_2526_preliminary_version_sp.pdf https://phoenixsports.co.kr/category/fischer/112/ https://phoenixsports.co.kr/category/fischer/112/?page=2
+fubuki/niseko,fubuki,Fubuki,Niseko,other,0,5,FUBUKI Niseko 방한 부츠(2.0/3.0). 스키부츠 아님. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+full-tilt/descendant,full-tilt,Full Tilt,Descendant,boots,0,1,풀틸트 Descendant 부츠. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+full-tilt/drop-kick,full-tilt,Full Tilt,Drop Kick,boots,0,2,풀틸트 3피스 프리스타일·모글 부츠 라인. 세부 모델(Drop Kick Pro/SC 등) 미확인.,
+fusalp/matterhorn,fusalp,Fusalp,Matterhorn,goggle,1,2,Fusalp Matterhorn 고글,https://fusalp.com/en-au/products/goggles-matterhorn-noir
+fusalp/power,fusalp,Fusalp,Power,apparel,0,1,판매글 표기 FUSALP POWER III(최상위 라인),
+fusalp/zenith,fusalp,Fusalp,Zenith collab,apparel,0,1,Fusalp x Zenith 협업 남성 스키복,
+gabel/nt,gabel,Gabel,NT,poles,1,1,가벨 NT 계열 폴. 매물 'GABEL NT VARIO CARBON'(23/24).,
+gabel/x-cursion,gabel,Gabel,X-Cursion,poles,1,5,가벨 X-Cursion 길이조절 폴. 매물 'X-CURSION VARIO F.L.C SMU (2526)'(SMU=국내 특주 사양 추정). 공식 사이트 접속 불가(403)로 미검증.,
+giro/avera,giro,Giro,Avera,helmet,0,7,여성용 헬멧 라인(Avera MIPS 등). 국내 AF 표기.,https://www.skiessentials.com/products/giro-avera-mips-women-s-helmet
+giro/axis,giro,Giro,Axis,goggle,1,7,Axis 프레임리스 고글. 국내 표기 엑시스.,https://joyleports.com/product/list.html?cate_no=28&page=2 https://www.evo.com/products/266572-giro-axis-goggles
+giro/comp,giro,Giro,Comp,goggle,1,6,24/25 시즌 출시된 지로 최상위 고글(SnapShot 렌즈 교환).,https://steep.jp/en/gear/90636/ https://www.evo.com/goggles/giro-comp
+giro/contour,giro,Giro,Contour,goggle,2,17,Contour(표준)와 Contour RS(소형 프레임) 구분. AF/인터핏은 핏 변형.,https://joyleports.com/product/list.html?cate_no=28&page=5 https://www.evo.com/products/180399-giro-contour-goggles
+giro/cruz,giro,Giro,Cruz,goggle,1,1,Cruz 보급형 고글. 국내 표기 크루즈.,https://joyleports.com/product/list.html?cate_no=28&page=3
+giro/grid,giro,Giro,Grid,helmet,1,6,Grid Spherical 경량 인몰드(투어링 겸용) 헬멧.,https://jans.com/products/grid-spherical-helmet
+giro/index,giro,Giro,Index,goggle,1,1,Index 2.0 OTG(안경 착용자용) 보급형 고글.,https://skis.com/product/51620/giro-index-20-goggles
+giro/jackson,giro,Giro,Jackson,helmet,1,2,Jackson MIPS 프리라이드/파크 인몰드 헬멧.,https://www.evo.com/products/159018-giro-jackson-mips-helmet
+giro/method,giro,Giro,Method,goggle,1,4,Method 중급 고글. 국내 표기 메소드.,https://joyleports.com/product/list.html?cate_no=28&page=5
+giro/neo,giro,Giro,Neo,helmet,3,4,Neo(비MIPS)와 Neo MIPS(II)로 구분. 국내는 주로 아시안핏(AF).,https://joyleports.com/category/giro-%EC%A7%80%EB%A1%9C/397/ https://sportscore.co.kr/product/2526-%EC%A7%80%EB%A1%9C-%EC%8A%A4%ED%82%A4-%ED%97%AC%EB%A9%A7-%EB%84%A4%EC%98%A4-%EC%95%84%EC%8B%9C%EC%95%88%ED%95%8F-%EB%B8%94%EB%9E%99/3722/
+giro/owen,giro,Giro,Owen,helmet,1,7,Owen Spherical(MIPS Spherical) 인몰드 헬멧.,https://evo.com/helmets/giro-owen-spherical-helmet https://joyleports.com/category/giro-%EC%A7%80%EB%A1%9C/397/
+giro/range,giro,Giro,Range,helmet,1,2,Range MIPS 구형 플래그십 헬멧(셸 조절 핏).,https://www.bobssportschalet.com/giro/giro-m-range-mips-helmet-15569
+giro/ratio,giro,Giro,Ratio,helmet,1,2,Ratio MIPS 보급형 헬멧.,https://m.outdoorgearlab.com/reviews/snow-sports/ski-helmet/giro-ratio-mips
+giro/revolt,giro,Giro,Revolt,goggle,1,1,Revolt 중급 고글. 국내 표기 리볼트.,https://joyleports.com/product/list.html?cate_no=28&page=3
+giro/taggert,giro,Giro,Taggert,helmet,1,8,Taggert MIPS 인몰드 파크/올마운틴 헬멧. 국내 표기 타거트/태거트.,https://joyleports.com/category/giro-%EC%A7%80%EB%A1%9C/397/ https://www.galaxus.ch/en/s3/product/giro-taggert-mips-helmet-5550-59-cm-m-ski-helmets-53569163
+giro/tenet,giro,Giro,Tenet,helmet,1,7,Tenet MIPS 하이브리드 셸 헬멧. 국내 표기 테넷.,https://joyleports.com/category/giro-%EC%A7%80%EB%A1%9C/397/ https://www.evo.com/products/238512-giro-tenet-mips-helmet
+giro/tor,giro,Giro,Tor,helmet,1,13,Tor Spherical 하이브리드 셸 최상위 올마운틴 헬멧. 국내 표기 토르.,https://joyleports.com/category/giro-%EC%A7%80%EB%A1%9C/397/ https://www.giro.com/p/tor-spherical-snow-helmet/GR-7146052.html
+giro/zone,giro,Giro,Zone,helmet,1,1,Zone MIPS 하이브리드 셸 헬멧(구형 상위 라인).,https://blisterreview.com/gear-reviews/2nd-look-giro-zone-mips-helmet
+glennski/phantom,glennski,GLENNSKI,PHANTOM,apparel,1,1,"글렌스키 PHANTOM 세트(판매글 'PHANTOM FLUO' = 형광 컬러). 2023년 구매 매물 1건. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+glennski/tp,glennski,GLENNSKI,TP,apparel,3,7,글렌스키(GLENSKI) 'TP' 세트 라인(판매글 '25 TP C SET'). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+goldwin/custom,goldwin,Goldwin,Goldwin Custom (team order),apparel,0,0,"골드윈 커스텀(스키팀·강사단 단체 주문 제작) 스키복. 주문별 디자인이 달라 정확한 모델 정의 불가, 패밀리 수준만 사용.",
+goldwin/japan-line,goldwin,Goldwin,Goldwin Japan Ski Collection (재팬라인),apparel,3,9,"일본 골드윈 본사 스키웨어. 국내 판매글에서 '골드윈 재팬(라인)'으로 불리며 영원무역 계열 골드윈코리아 국내 라인과 구분됨(일본식 사이즈 표기 3=L, 4=XL). GORE-TEX 2L/3L 쉘 자켓·빕팬츠 중심, 일본 대표팀 계열 라인으로 알려짐. 품번은 G+숫자 5자리(예: G03302 상의, G34351 하의; 2번째 자리 0=상의/3=하의, 3번째 자리=연도 끝자리로 추정, 미검증). 일본 직구 구매가가 국내 라인보다 크게 높음(판매글 기준 하의 약 90만원). 웹검색 한도 소진으로 공식 정가 미확인. 공식몰 구 시즌 품번 페이지는 삭제(404).",https://jp.goldwin.global/
+goldwin/korea-line,goldwin,Goldwin,Goldwin Korea Ski Collection (style-code items),apparel,3,3,"골드윈코리아(영원무역 계열) 국내 스키웨어 중 고유 라인명 없이 품번(GJ2NQ50, GJ2NP50C, GSJ2NF61 등)으로만 식별되는 제품을 담는 용도. 동일 그룹 노스페이스 코리아 품번 체계와 같다면 5번째 문자가 연도(P=2022, Q=2023)이고 끝 문자는 색상 코드일 가능성(미검증). 패밀리 단독 라벨에는 쓰지 않음.",
+hart/f17,hart,Hart,F17,ski,1,3,하트(HART) 모글 스키 F17 계열(판매글 'Fusion F17'). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+hart/infinity,hart,Hart,Infinity,ski,1,1,Hart Infinity 레이스 라인(판매글 표기). Hart는 22/23 시즌부터 생산 중단 공지,https://www.hartskis.com/
+head/advant-edge,head,Head,Advant Edge,boots,2,4,Edge LYT 이전 세대 컴포트 부츠. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/challenger,head,Head,Challenger,boots,1,1,스키-하이크 기능 올마운틴 부츠. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/chloe,head,Head,Chloe,apparel,1,10,헤드×린지 본 콜라보 여성 CHLOE 자켓(매물 표기). EMERALD 팬츠와 세트로 판매됨. 외부 출처 미확인.,
+head/edge,head,Head,Edge,boots,6,16,"편한 부츠 Edge LYT(라스트 102, HV 변형) 및 25/26 신형 Edge(EZ 쉘). 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반)",
+head/emerald,head,Head,Emerald,apparel,1,0,헤드×린지 본 콜라보 여성 EMERALD 팬츠(매물 표기). 외부 출처 미확인.,
+head/formula,head,Head,Formula,boots,4,18,퍼포먼스 부츠 Formula(MV 라스트). 한국 판매 WCR/LTD 변형 표기 존재. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/joy,head,Head,Joy,ski,2,4,"여성용 Joy 라인(Absolut Joy, Easy Joy 등). 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반)",
+head/kaliber,head,Head,Kaliber,boots,0,1,판매자 표기 '칼리버 130 BOA2'(25/26). 공식명 미확인 — 패밀리 수준만.,
+head/kore,head,Head,Kore,apparel,0,1,헤드 Kore 쉘(3L) 의류 라인. 세부 모델(Kore/Kore II 등) 미확인.,
+head/next-edge,head,Head,Next Edge,boots,1,1,구형 입문 부츠. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/radar,head,Head,Radar,helmet,1,1,헤드 Radar 바이저 헬멧 라인(스페어 렌즈 별매). 외부 출처 미확인.,
+head/raptor,head,Head,Raptor,boots,10,46,헤드 레이싱 부츠(Raptor RS/Pro → Raptor WCR). 주니어 Raptor 40/60/70 포함. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/rebels-racing,head,Head,Rebels Racing,bag,1,2,헤드 Rebels Racing 가방 라인(부츠 백팩 등).,
+head/shape,head,Head,Shape,ski,2,7,입문~중급 Shape/V-Shape 라인(V-Shape→Shape e.V 명칭 변경). 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/star,head,Head,Star,apparel,1,2,"매물 표기 'HEAD Star 재킷'. 헤드 의류 Star 라인으로 추정, 외부 출처 미확인.",
+head/supershape,head,Head,Supershape,ski,6,15,온피스트 올라운드 카빙(Magnum/Rally/Titan/Speed). i세대→e세대. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/vector,head,Head,Vector,boots,1,1,구형 Vector Evo 부츠. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반),
+head/worldcup-rebels,head,Head,Worldcup Rebels,ski,17,151,"WC Rebels/WCR 레이스·데모 라인(e-시리즈=EMC, i-시리즈=구형). 한국 '헤드 월드컵'은 주로 WCR e-SL Rebel FIS. 웹검색 한도 소진으로 외부 출처 미검증(매물 표기·도메인 지식 기반)",
+hestra/fall-line,hestra,Hestra,Fall Line,gloves,2,3,헤스트라 Fall Line 가죽 스키장갑(Alpine Pro 계열). 5핑거(오지)와 3핑거(삼지)를 별도 모델로 구분. 한국 표기 '폴라인/레더 폴라인'.,
+hestra/wakayama,hestra,Hestra,Wakayama,gloves,1,1,헤스트라 Wakayama 가죽 5핑거 장갑. 한국 표기 '와카야마'.,
+hmr/h2,hmr,HMR,H2,helmet,1,4,"HMR(HAMMER, 이탈리아) H2 변색 바이저 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+id-one/alpine-wear,id-one,ID one,Alpine Wear,apparel,1,2,"알파인(인터) 쉘 상하의 라인. 국내 품번 J02/P02(ID-J02/ID-P02), P05.",https://www.idoneski.co.kr/product/list.html?cate_no=26
+id-one/fr,id-one,ID one,FR (Free Ride),ski,0,1,"프리라이드 라인(FR-JPOW, FR-XPX, FR-MX, FR-TM, FR-PC Light 등). 매물의 'FR NG'는 현행 라인업에 없음(구형 추정).",http://idoneski.com/fr.html
+id-one/mogul-wear,id-one,ID one,Mogul Wear,apparel,4,11,"모글 쉘 상하의 라인. 국내 품번 J01/P01, SCJ01/SCP01(민트), J03/P03, J04/P04. 일본명 모글 3L 하드셸.",http://idoneski.com/mogul-wear.html https://www.idoneski.co.kr/product/list.html?cate_no=26
+id-one/mr,id-one,ID one,MR (Mogul Ride),ski,6,53,"ID one 모글 라인: MR-G1, MR-SG, MR-CE, MR-G, MR-D, MR-S, MR-J",http://idoneski.com/mr.html https://www.idoneski.co.kr/product/list.html?cate_no=25
+id-one/tr,id-one,ID one,TR (Technical Ride),ski,5,10,"기술(데모) 라인. 국내: TR-TTR SL/GS(최상위), TR-TTS SL/GS, TR-TT, TR-TTM. 일본: TR-TTC/TTS/TT.",http://idoneski.com/tr.html https://idoneski.co.kr/category/technical-ridetr/32/
+indigo/signature,indigo,Indigo,Signature,helmet,1,1,인디고(INDIGO) Signature 헬멧(보글 별도). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+intuition/classic,intuition,Intuition,Classic,boots,1,1,인튜이션 Classic 라이너(HD 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+intuition/pro-wrap,intuition,Intuition,Pro Wrap,boots,1,2,인튜이션 Pro Wrap 라이너. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+ix-nine/ix3,ix-nine,IX NINE,IX3,goggle,1,2,IX NINE(IX9) IX3 고글(IX3 Pro). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+j-lindeberg/kerry,j-lindeberg,J.Lindeberg,Kerry,apparel,1,2,"J.Lindeberg Kerry 스키 자켓(판매자 표기 케리/캐리). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+julbo/the-peak,julbo,Julbo,The Peak,helmet,1,1,Julbo The Peak 헬멧(EN1077/EN12492). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+k2/disruption,k2,K2,Disruption,ski,1,1,K2 온피스트 카빙 라인(Disruption STi/MTi/82Ti 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+k2/lockjaw,k2,K2,Lockjaw,poles,1,1,"K2 Lockjaw 길이조절 폴(매물 'LOCK JAW CARBON 90-130', 24/25).",
+k2/mindbender,k2,K2,Mindbender,ski,2,2,K2 올마운틴/프리라이드,
+k2/mindbender-boots,k2,K2,Mindbender (boots),boots,2,4,"K2 마인드벤더 부츠(워크모드·투어링 겸용, BOA 버전 포함). 스키 패밀리와 분리. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+k2/recon,k2,K2,Recon,boots,2,3,"K2 레콘 부츠(100/120/130, BOA 버전). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+k2/revolve,k2,K2,Revolve,boots,1,2,K2 Revolve 부츠: 25/26부터 Full Tilt 라인(Drop Kick 등)을 K2 브랜드로 전환(판매글 표기). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+k2/wayback,k2,K2,Wayback,ski,1,1,K2 투어링 스키,
+kappa/us-ski-team,kappa,Kappa,US Ski Team,apparel,0,1,"Kappa US Ski Team 라인(원피스 스키복 해외직구). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+kask/titano,kask,Kask,Titano,helmet,1,2,KASK Titano 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+kastle/rx12,kastle,Kästle,RX12,ski,2,3,"Kästle 레이스 라인: RX12 SL/GS, GS Masters, SL/GS Factory FIS(WC)",https://kaestle.com/en-us/collections/alpine-race
+kessler/phantom,kessler,Kessler,The Phantom,ski,1,4,"케슬러(KESSLER, 스위스) 프리미엄 스키 Phantom 계열. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+kessler/python,kessler,Kessler,The Python,ski,1,2,케슬러(KESSLER) The Python. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+kizaki/proseed,kizaki,Kizaki,Proseed,poles,1,2,키자키 プロシード(PROSEED) 폴. 伸縮式 TL Carbon(KPAH-9001 등),https://auctions.yahoo.co.jp/brand/599/ https://fril.jp/brand/5945
+kjus/formula,kjus,KJUS,Formula,apparel,2,5,KJUS Formula 자켓/팬츠 라인(남·여),
+kjus/prime-time,kjus,KJUS,Prime Time,apparel,1,3,남성 Prime Time (II) 다운 자켓,
+kjus/razor,kjus,KJUS,Razor,apparel,1,2,여성 Razor 팬츠,
+kjus/sella,kjus,KJUS,Sella,apparel,1,5,"여성 Sella 자켓(로로피아나 울, 다운). 스타일 LS15-C04",https://www.saintbernard.com/products/kjus-womens-sella-jacket-style-ls15-c04
+klim/vailslide,klim,Klim,Vailslide,apparel,1,1,Klim Vailslide 여성 라인(원피스 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+komperdell/nationalteam,komperdell,Komperdell,Nationalteam,poles,1,1,Komperdell Nationalteam 폴 라인,
+lange/lx,lange,Lange,LX,boots,2,4,"HV(102mm) 와이드 라스트 컴포트 라인, 그립워크(GW).",https://www.evo.com/alpine-ski-boots/lange-lx-110-hv-gw
+lange/rs,lange,Lange,RS,boots,3,27,"레이싱(컨슈머 레이스) 부츠 라인. 라스트 LV/MV(100mm, 구 Wide)/SC(숏커프). 24/25 리뉴얼(Race Flex Adjust 플레이트, 풍동 설계). 북미 26/27 라인업 RS 130 LV/MV, 120 LV/MV/SC, 110 SC, 90 SC, 70 SC.",https://www.evo.com/alpine-ski-boots/lange-rs-130 https://www.skiessentials.com/collections/lange https://www.skiessentials.com/products/2025-lange-rs-130-mv-ski-boots-lbn1050w
+lange/rsj,lange,Lange,RSJ,boots,1,1,주니어 레이싱 입문 부츠(RSJ 50/60/65). 여아용 동급 Starlet 50/60 별도.,https://www.evo.com/products/281952-lange-rsj-60-ski-boots-kids-2027 https://www.skiessentials.com/collections/lange
+lange/rx,lange,Lange,RX,boots,1,2,라스트 100mm 퍼포먼스 라인(~20/21). 이후 Shadow 라인으로 대체된 것으로 추정.,https://www.evo.com/alpine-ski-boots/lange-rx-120
+lange/world-cup,lange,Lange,World Cup,boots,2,7,"플러그 레이스 부츠(World Cup RS Z 시리즈). 라스트 92mm, 비DIN 솔(연마 필요). 경도 버전 ZA/ZB/ZSoft 등 존재.",https://www.evo.com/alpine-ski-boots/lange-world-cup-rs-za https://www.skiessentials.com/products/lange-world-cup-rs-zsoft-22
+leki/carbon,leki,Leki,Carbon,poles,2,3,"고정형 카본 폴 라인(Carbon 11/12/14, 3D·S·TR 그립 버전). Carbon 11은 미국/독일 현행 카탈로그에 없음(아시아 판매 추정).",https://lekiusa.com/collections/ski-poles/products.json?limit=250 https://www.leki.com/de/de/Stoecke/Skistoecke
+leki/drifter,leki,Leki,Drifter,poles,1,2,"주니어 길이조절 폴 Drifter Vario S(90-120cm, 알루 HTS 5.5, Trigger S SL 그립). 품번 653641xx.",https://lekiusa.com/collections/ski-poles/products.json?limit=250 https://www.leki.com/de/de/Drifter-Vario-S/65364102
+leki/griffin,leki,Leki,Griffin,gloves,2,3,"올마운틴 장갑 라인(Griffin Pro 3D, Prime 3D, Base 3D, Tune 3D Boa, 구형 Griffin S 등).",https://www.leki.com/de/de/Handschuhe/Skihandschuhe/All-Mountain
+leki/peak,leki,Leki,Peak,poles,1,6,"Peak Vario 길이조절 폴(상단 알루 HTS 6.5 + 하단 카본 컴포지트 CC600, 110-140cm). 26/27 Peak Vario TR로 동일 사양 후속.",https://lekiusa.com/products/peak-vario-3d_leki-usa_alpine-skiing-poles_winter https://www.leki.com/de/de/Peak-Vario-TR/65667611
+leki/sentinel,leki,Leki,Sentinel,poles,0,1,판매자 표기 '센티넬'. 미국/독일 현행 카탈로그에서 확인 못함(웹검색 한도 소진으로 미검증).,
+leki/venom,leki,Leki,Venom,poles,3,8,카본 상위 라인. 길이조절 Venom Vario(3D/구형 Trigger S)와 레이스 고정형 Venom SL/GS 3D(26/27 Venom SL/GS TR)로 구성.,https://lekiusa.com/products/venom-sl-3d_leki-usa_race-gear_poles_winter https://www.leki.com/de/de/Stoecke/Skistoecke/Racing
+leki/wcr,leki,Leki,WCR,poles,2,2,World Cup Racing 레이스 폴 라인. WCR Lite SL/GS 3D는 주니어용(90-120cm 알루 HTS 6.5). 26/27은 WCR Evo Lite/Pro Lite TR로 개편.,https://lekiusa.com/products/wcr-lite-sl-3d_leki-usa_race-gear_poles_winter https://www.leki.com/de/de/Stoecke/Skistoecke/Racing
+leki/worldcup-race,leki,Leki,Worldcup Race,gloves,1,3,"구형 레이스 장갑 라인(Worldcup Race Ti S, Ti S Speed System 등). 현행은 WCR Venom/Coach/Pro TR 장갑으로 개편.",https://www.leki.com/de/de/Handschuhe/Skihandschuhe/Rennhandschuhe
+lenz/heat-glove,lenz,Lenz,Heat Glove,gloves,1,1,"Lenz 발열장갑 Heat Glove 라인(6.0 등). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+lenz/space-dryer,lenz,Lenz,Space Dryer,other,1,1,렌쯔 부츠 건조기 Space Dryer. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+line/sunset,line,Line,Sunset,ski,1,1,LINE 스키보드(숏스키) Sunset. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+look/rockerace,look,Look,Rockerace,binding,2,2,Look 레이스 바인딩 라인(PX/SPX Rockerace),https://www.look-bindings.com/products/Bindings/open/racing
+look/spx,look,Look,SPX,binding,0,1,"룩 SPX 바인딩(SPX 12/15, GW).",
+mammut/barryvox,mammut,Mammut,Barryvox,other,0,1,마무트 배리복스 눈사태 비콘. Barryvox / Barryvox S 등 세부 모델 구분 필요.,
+mango/cusna,mango,Mango,Cusna,helmet,1,1,MANGO(이탈리아) Cusna 변색 바이저 헬멧(Free 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+marker/confidant,marker,Marker,Confidant,helmet,1,1,Marker Confidant 헬멧(일반/MIPS/Tour),https://www.evo.com/products/226563-marker-confidant-mips-helmet
+marker/griffon,marker,Marker,Griffon,binding,1,1,"Marker 프리라이드 바인딩(Griffon 13, Griffon X 13 등)",https://comorsports.com/products/marker-griffon-x-13-m-werks-ski-binding-2026-graphite-black
+marker/jester,marker,Marker,Jester,binding,0,0,Marker 프리라이드 바인딩,
+marker/kingpin,marker,Marker,Kingpin,binding,0,0,Marker 투어링(핀) 바인딩,
+marker/phoenix,marker,Marker,Phoenix,helmet,1,3,Marker Phoenix 헬멧(Phoenix 2 / Phoenix 2 MIPS),https://www.evo.com/products/202903-marker-phoenix-2-mips-helmet
+marker/race,marker,Marker,Race,binding,1,1,Marker 레이스 바인딩(Race 10 TCX 등),
+marker/race-plate,marker,Marker,Race Plate,binding,1,1,Marker 레이스 인터페이스 플레이트,
+marker/squadron,marker,Marker,Squadron,goggle,1,1,"Marker Squadron 고글(Magnet+ 마그네틱 렌즈, HD=편광)",https://markerbindings.com/en-at/p/squadron-magnet-plus-goggles-2026
+marker/squire,marker,Marker,Squire,binding,0,0,Marker 올라운드 바인딩,
+marker/xcell,marker,Marker,Xcell,binding,1,1,마커 XCell 바인딩(블리자드 SRC/WRC 시스템 바인딩 XCell 14 Demo 등).,https://www.onthesnow.co.uk/news/skitest/blizzard/firebird-src/2025/
+millet/demo,millet,Millet,Demo,apparel,1,3,"밀레(Millet) 국내 데모복(기술선수권·데모용 스키복 상하의). 21/22 매물. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+mizuno/demo-line,mizuno,Mizuno,Demo Team,apparel,0,1,"미즈노 데모(기술선수권) 라인 스키복, 판매자 표기 '데모복' 기준(웹 미검증)",https://corp.mizuno.com/sites/corp/files/2022-06/211102_wear.pdf
+mizuno/saj-team,mizuno,Mizuno,SAJ Team,apparel,0,4,"미즈노 제작 SAJ(전일본스키연맹) 공식 지급 웨어(비매품, Breath Thermo)",https://corp.mizuno.com/sites/corp/files/2022-06/211102_wear.pdf
+montbell/powder,montbell,Montbell,Powder,gloves,1,1,"몽벨 Powder Zip Mittens. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+mountain-force/bart,mountain-force,Mountain Force,Bart,apparel,0,5,"마운틴포스(Mountain Force) 바트 자켓 + 팬츠 남성 세트(판매자 표기 '바트 자켓', 영문명 미확인). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+neon/arctic,neon,Neon,Arctic,goggle,1,0,NEON Arctic 마그네틱 고글. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+neon/summit,neon,Neon,Summit,helmet,1,4,NEON(이탈리아) Summit 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+neve/chameleon,neve,Neve,Chameleon,goggle,1,1,네베(NEVE) 카멜레온 고글. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+nike/acg,nike,Nike,ACG,apparel,0,1,"나이키 ACG 라인. 매물 'ACG 체나 볼텍스' 스키복 세트, 품번 FV8892-104(색상 104). 세부 모델명 미검증.",
+nordica/cruise,nordica,Nordica,Cruise,boots,2,3,"라스트 104 와이드 컴포트 부츠. 24/25부터 'The Cruise' 130/120 GW/100/80, 여성 65W 등.",https://joyleports.com/product/search.html?keyword=노르디카 https://phoenixsports.co.kr/category/NORDICA/40/
+nordica/dobermann,nordica,Nordica,Dobermann,ski,12,74,"노르디카 레이스·기술 스키 라인. FIS(SL WC, SL WC DEPT, GS WC/Race Plate), 데모·컨슈머(SLR, SLC, GSR, Multigara), 주니어(SLJ, GSJ), 구형 Dobermann Spitfire. 부츠 Dobermann은 nordica/dobermann-boots로 분리.",https://phoenixsports.co.kr/category/NORDICA/34/ https://www.nordica.com/global/en/collection/men/skis/dobermann-dc/dobermann-slr-dc-fdt https://www.nordica.com/global/en/products-list/men/skis/race
+nordica/dobermann-boots,nordica,Nordica,Dobermann (boots),boots,9,51,"레이싱 부츠 라인. 구형 Dobermann (WC) EDT 130, GP 130/140/110(라스트 98, ~22/23), 23/24부터 Dobermann 5 S/M/M L.C.(라스트 96; 25/26부터 '5 96 Stiff/Medium/L.C. Medium'으로 표기), 월드컵 플러그 5 RD(93mm; RD S=140, RD M=120).",https://phoenixsports.co.kr/category/NORDICA/40/ https://www.nordica.com/global/en/collection/men/boots/dobermann-5-rd/dobermann-5-rd-93-stiff https://www.nordica.com/global/en/products-list/men/boots/narrow-96mm
+nordica/hf,nordica,Nordica,HF,boots,1,1,"핸즈프리(후방 진입형) 부츠 라인. HF 120/110/100, 상위 HF S 130/110(GW).",https://www.nordica.com/global/en/collection/men/boots/hf https://www.nordica.com/global/en/collection/men/boots/hf-s
+nordica/pro-machine,nordica,Nordica,Pro Machine,boots,3,5,"라스트 98(100) 퍼포먼스 부츠. 남성 130/120/110, 여성 115 W/105 W/95 W/85 W, GW 그립워크 솔.",https://phoenixsports.co.kr/category/NORDICA/40/
+nordica/race-gear-pack,nordica,Nordica,Race Gear Pack,bag,1,1,"레이스 부츠백/기어팩(Race XL Gear Pack Dobermann, Race XL JR Gear Pack Dobermann).",https://joyleports.com/product/search.html?keyword=노르디카
+nordica/speedmachine,nordica,Nordica,Speedmachine,boots,3,16,"라스트 100 퍼포먼스 부츠. 구형 Speedmachine 130/110/100(~20/21), 21/22부터 Speedmachine 3 (GW), BOA 및 더블BOA(DD) 버전.",https://joyleports.com/product/search.html?keyword=노르디카 https://phoenixsports.co.kr/category/NORDICA/40/
+nordica/spitfire,nordica,Nordica,Spitfire,ski,1,1,"온피스트 카빙 스키 라인(Spitfire DC 68/74/80 Pro, Spitfire Ti/CA, Spitfire 73/75 R 등). 구형 Dobermann Spitfire EDT는 nordica/dobermann 아래에 둠.",https://phoenixsports.co.kr/category/NORDICA/34/
+nordica/sportmachine,nordica,Nordica,Sportmachine,boots,5,9,"라스트 102 컴포트 퍼포먼스 부츠. 구형 Sportmachine 130/120/100(~20/21), 21/22부터 Sportmachine 3 (GW), 25/26 BOA 버전.",https://joyleports.com/product/search.html?keyword=노르디카 https://phoenixsports.co.kr/category/NORDICA/40/
+nordica/transfire,nordica,Nordica,Transfire,ski,1,1,2010년대 중후반 올라운드 카빙 스키 라인. 웹 확인 못함(검색 한도).,
+norrona/lofoten,norrona,Norrøna,Lofoten,apparel,1,1,"Norrøna lofoten GORE-TEX 자켓·팬츠. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+oakley/flight-tracker,oakley,Oakley,Flight Tracker,goggle,1,1,Oakley Flight Tracker 고글(OO7104 = L),https://www.skiessentials.com/products/oakley-flight-tracker-l-snow-goggle-oo7104
+oakley/line-miner,oakley,Oakley,Line Miner,goggle,2,4,"Oakley Line Miner 고글(M/L/XL, Pro)",https://www.skiessentials.com/products/oakley-line-miner-pro-l-goggle-oo7136
+oakley/mod,oakley,Oakley,MOD,helmet,3,4,Oakley MOD 헬멧 시리즈(MOD1/3/5/7),https://www.bobssportschalet.com/oakley/oakley-mod5-winter-helmet-162710
+oakley/snow-shell,oakley,Oakley,Snow Shell,apparel,1,2,Oakley Snow Shell 10K/2L 자켓·팬츠,
+ogasaka/keos,ogasaka,Ogasaka,KEO'S,ski,4,5,"KEO'S(KS-) 네오카빙/올라운드 라인. 시즌 코드가 아니라 모델별 코드(KS-UP, KS-AP2, KS-CV, KS-CX, KS-PV, KS-PS 등). KS-PV/KS-PS는 공식 페이지 미확인(장터 표기 기준).",https://www.ogasaka-ski.co.jp/alpine-ski https://www.ogasaka-ski.co.jp/alpine-ski/ks-up-27/
+ogasaka/tc,ogasaka,Ogasaka,TC Series,ski,4,165,"Technical Competition(기술선수권) 라인. 두번째 글자 S/M/L = 소회전/중회전/대회전(롱턴), 세번째 글자는 시즌 버전 코드: A(18/19, 장터 기준), S(19/20), K(20/21), T(21/22), U(22/23), B(23/24), 24/25부터 TC-S/TC-L 무접미. 25/26부터 TC-L.LIGHT, 26/27 TC-S.LIGHT 추가. 한국 장터에서 '오가사카 회전/데모 165'는 대개 TC-S 계열, '대회전 180/183'은 TC-L 계열.",https://www.ogasaka-ski.co.jp/alpine-ski https://www.ogasaka-ski.co.jp/alpine-ski/tc-s-27/ https://www.ogasaka-ski.co.jp/alpine-ski/tc-sb-24/ https://www.ogasaka-ski.co.jp/alpine-ski/tc-sk-21/ https://www.ogasaka-ski.co.jp/alpine-ski/tc-ss-20/ https://www.ogasaka-ski.co.jp/alpine-ski/tc-st-22/ https://www.ogasaka-ski.co.jp/alpine-ski/tc-su-23/
+ogasaka/triun,ogasaka,Ogasaka,TRIUN,ski,3,14,"알파인 레이스 라인(트라이언). SL(FIS SL 탑모델 156/160/165), S(글라스 SL), GS(178/183/188, FIS K1/K2·U14/U16), GS-30, G, G.TEAM, SG 등.",https://www.ogasaka-ski.co.jp/alpine-ski https://www.ogasaka-ski.co.jp/alpine-ski/triun-gs-22/ https://www.ogasaka-ski.co.jp/alpine-ski/triun-sl-27/
+ogasaka/unity,ogasaka,Ogasaka,UNITY,ski,2,2,"UNITY(U-) 올시추에이션/올마운틴 라인: U-PE, U-PH, U-PC 등. U-FS3은 공식 페이지 미확인(장터 표기 기준).",https://www.ogasaka-ski.co.jp/alpine-ski https://www.ogasaka-ski.co.jp/alpine-ski/unity-pe-26/
+one-way/gt,one-way,One Way,GT,poles,1,1,"원웨이 GT 계열 폴(매물 'GT VARIO' 길이조절). 현행 공식 사이트 알파인 목록(FR 18 Free, RD 13 Carbon Pro, Premio 40, TR Carbon Vario)에 없음.",https://www.onewaysport.com/
+one-way/rd,one-way,One Way,RD,poles,1,1,원웨이 RD 계열 폴. 매물 'RD CARBON VARIO'(길이조절). 공식 현행 목록엔 RD 13 Carbon Pro(고정형)만 확인.,https://www.onewaysport.com/ https://www.onewaysport.com/tr-carbon-vario/OZ34321
+onyone/demo,onyone,ONYONE,DEMO,apparel,3,154,"온요네 데모 라인 전체(DEMO / DEMO TEAM / DEMO MASTER). 일본 공식 카탈로그는 DEMO와 DEMO TEAM을 별도 카테고리로 둠. 국내 판매자는 세 라인 모두 '데모복·데모라인'으로 부르므로 라인 미표기 매물은 패밀리 수준(B)으로만 식별. 품번 규칙(공식 사이트·매물 품번 대조): ONJ=자켓, ONP=팬츠, 3~4번째 자리=시즌 (96=23/24, 97=24/25, 98=25/26, 99=26/27), 89xxx=여성용, RES=주니어.",https://www.onyone.co.jp/ski/2026-27/demo-team/ https://www.onyone.co.jp/ski/2026-27/demo/
+onyone/edge,onyone,ONYONE,EDGE,apparel,3,21,"EDGE 라인: EDGE SHELL(3레이어 하드쉘 자켓+빕팬츠), EDGE PUFF OUTER(패딩), STRETCH PUFF MID(미드레이어). 국내 표기 '엣지쉘·하드쉘·쉘라인'은 EDGE SHELL. 24/25 'EDGE WT MIL'은 판매자 표기(미확인). 품번 규칙(공식 사이트·매물 품번 대조): ONJ=자켓, ONP=팬츠, 3~4번째 자리=시즌 (96=23/24, 97=24/25, 98=25/26, 99=26/27), 89xxx=여성용, RES=주니어.",https://www.onyone.co.jp/ski/2026-27/edge/
+onyone/leather-glove,onyone,ONYONE,Leather Glove,gloves,1,2,"온요네 가죽 스키장갑. 확인된 모델은 THREE FINGER LEATHER GLOVE(ONA97002, 24/25 출시 후 26/27까지 계속 판매).",https://www.onyone.co.jp/ski/2026-27/acc/ https://www.onyone.co.jp/ski/2026-27/acc/ona97002/
+onyone/zone,onyone,ONYONE,ZONE,apparel,1,11,"ZONE OUTER JACKET/PANTS. 일본 공식가 기준 온요네 최고가 스키복 라인(톱·기술선수용, 매장 한정). 국내 판매자 표기 'ZONE 2.0/2.0 ZONE'은 세대 표기로 추정(미확인). 품번 규칙(공식 사이트·매물 품번 대조): ONJ=자켓, ONP=팬츠, 3~4번째 자리=시즌 (96=23/24, 97=24/25, 98=25/26, 99=26/27), 89xxx=여성용, RES=주니어.",https://www.onyone.co.jp/ski/2026-27/zone/ https://www.onyone.co.jp/ski/2026-27/zone/onj99101/
+patagonia/better-sweater,patagonia,Patagonia,Better Sweater,apparel,1,5,플리스,
+patagonia/black-hole,patagonia,Patagonia,Black Hole,bag,0,1,Patagonia Black Hole 가방 라인,
+patagonia/nano-puff,patagonia,Patagonia,Nano Puff,apparel,0,2,남/여 버전 존재,
+patagonia/powder-town,patagonia,Patagonia,Powder Town,apparel,1,1,,
+patagonia/snowdrifter,patagonia,Patagonia,SnowDrifter,apparel,0,3,SnowDrifter Bibs(남/여 존재),
+peak-performance/edge,peak-performance,Peak Performance,Edge,apparel,1,1,"피크퍼포먼스 Edge 스키웨어 라인. 매물 'Mens 엣지 인슐레이티드 Jacket, Pants'(24-25). 웹 검색 한도 소진으로 공식 확인 못 함.",
+peak-performance/shiga,peak-performance,Peak Performance,Shiga,apparel,1,2,피크퍼포먼스 Shiga 스키 자켓(품번 표기 SHIGAJ2). 2017년 전후 모델로 판매자 기재. 미검증.,
+phenix/demo-team,phenix,Phenix,Demo Team,apparel,2,9,"피닉스 데모(기술선수권·데모팀) 라인 스키복. 판매글 표기: '데모', '데모라인', '데몬복/데몬팀복'(오기), 'Demo Game Pro'. 20/21 Demo Game Pro 자켓 PFA72OT10 + 3-D Jet 팬츠 PFA72OB10, 24/25 PSM24OT00/PSM24OB00. 웹 미확인.",
+phenix/diamond,phenix,Phenix,Diamond,apparel,2,3,"피닉스 여성 최상위 프리미엄 라인 '다이아몬드(Diamond)'. 22/23 다운 자켓 ESW22OT70 + 부츠컷 팬츠 ESW22OB72 세트(다운 90%, 라쿤 퍼), 23/24 'Diamond Jacket W'. 웹 미확인.",
+phenix/japan-line,phenix,Phenix,Japan line,apparel,0,1,"판매글 표기 '재팬라인'(일본 내수 라인, 국내 수입 소량). 세부 모델 미확인, 패밀리 수준만 사용.",
+phenix/legacy,phenix,Phenix,Legacy line,apparel,0,1,"판매글 표기 '레거시 라인'(24/25, JP 사이즈 표기). 공식 명칭·구성 웹 미확인, 패밀리 수준만 사용.",
+phenix/norway-team,phenix,Phenix,Norway Alpine Team,apparel,1,14,"피닉스가 공급해 온 노르웨이 알파인 대표팀 레플리카 스키복(국내 통칭 '노르웨이 팀복', 블랙 컬러는 '검노'). 국내 판매글에서 브랜드 수식 없이 '피닉스 팀복'이라 하면 대개 이 라인을 가리킴(데모 팀복은 '데모/데몬'을 붙임). 21/22 상의 품번 EFB72OT01. 판매글 언급 가격: 22/23 팀 자켓 인터넷 최저가 약 43.8만원, 구형 팀 상의 구입가 약 50만원(모델 특정 불가라 msrp 미기재). 웹검색 한도 소진으로 공식 공급 시즌 미확인.",
+phenix/shell-line,phenix,Phenix,Shell line,apparel,0,4,"국내 판매글의 '피닉스 쉘/쉘라인' 스키복(24/25~25/26, 새제품 호가 70~85만원대로 일반 라인보다 높음). 패딩형 일반 라인과 구분해 판매자들이 라인명처럼 사용. 공식 컬렉션명 웹 미확인(검색 한도 소진), 패밀리 수준만 사용.",
+phenix/ski-collection,phenix,Phenix,Ski collection (style-code items),apparel,16,25,"고유 라인 없이 품번이나 개별 품명으로만 식별되는 피닉스 스키웨어를 담는 용도(패밀리 단독 라벨에는 쓰지 않음). 품번 체계(판매글 연식과 대조한 추정, 미검증): 구 품번 P/E + 라인문자(F,A,H) + 연도문자(5=2015, 7=2017, 9=2019, A=2020, B=2021) + 72(남)/82(여)/52 + OT(상의)/OB·SB(하의) + 일련번호. 신 품번(22/23~): ESW(여성)·PSM(남성 추정)·PSB(주니어) + 연도 2자리 + OT/OB/2P(투피스) + 번호(+K 키즈).",
+poc/fornix,poc,POC,Fornix,helmet,0,1,POC Fornix 헬멧(Fornix/Fornix MIPS/SPIN). 우벡스 고글과 세트 매물에서 등장.,
+poc/fovea,poc,POC,Fovea,goggle,1,2,,
+poc/obex,poc,POC,Obex,helmet,4,10,올마운틴 헬멧. Obex MIPS / WF MIPS(와이드핏) / SPIN / Visor MIPS / BC MIPS,https://poc.com/en/product/obex-visor-hydrogen-white-clarity-universal-sunny-grey-cat-3 https://www.evo.com/products/135901-poc-obex-spin-helmet https://www.evo.com/products/268586-poc-obex-wf-mips-helmet
+poc/opsin,poc,POC,Opsin,goggle,0,1,,
+poc/race-backpack,poc,POC,Race Backpack,bag,1,1,POC Race Backpack(130L 등),https://poc.com/en/product/race-backpack-130-fluorescent-orange
+poc/retina,poc,POC,Retina,goggle,1,1,POC Retina 고글(Big 등),
+poc/skull-dura,poc,POC,Skull Dura,helmet,1,2,레이스 헬멧(Race Lock),
+poc/zonula,poc,POC,Zonula,goggle,1,5,"Zonula Clarity / Clarity Comp(레이스용, 여분렌즈 포함)",https://www.evo.com/products/202841-poc-zonula-clarity-comp-goggles
+reusch/blizzard,reusch,Reusch,Blizzard,gloves,1,2,로이쉬 장갑 라인명 'Blizzard'(스키 브랜드 블리자드와 무관).,
+reusch/demo-skiwear,reusch,Reusch,Demo Ski Wear,apparel,2,20,"로이쉬 국내 스키복(상하 세트) 최상위 데모(기술선수권) 라인. 판매글 표기: DEMO SKI WEAR/DEMO SET/데모라인/데모복. 시즌 컬러(판매글 기준): 23/24 SND·YEL, 24/25 오렌지/샌드/블랙, 25/26 MINT/BRIGHT GREY·피치. 데미작스 원단 언급. 글로벌 reusch.com에는 의류 없음(국내 라이선스 추정). 웹검색 한도 소진으로 정가 미확인.",
+reusch/overland,reusch,Reusch,Overland,gloves,0,4,"로이쉬 장갑 라인 '오버랜드'(판매글: 삼지/랍스터 인터라인 장갑, 7.5=S-M). reusch.com 스키장갑 목록 일부(24/354)에서는 확인 못함 — 국내 전용 모델 가능성. 세부 모델명 미확인.",
+reusch/team-skiwear,reusch,Reusch,Team Ski Wear,apparel,1,16,"로이쉬 국내 스키복(상하 세트) 팀(TEAM) 라인, 판매글에서 '팀복/팀복라인/팀라인/Team Skiwear'. 시즌 컬러(판매글 기준): 24/25 OLI/WT·머스타드, 25/26 다크 네이비·샌드/네이비·머스타드 옐로우/다크 네이비·블랙. 주의: '팀복'은 클럽 단체복 의미로도 쓰여 라인명 없이 '팀복'만 있으면 패밀리 추정(B). 정가 미확인.",
+reusch/worldcup-warrior,reusch,Reusch,Worldcup Warrior,gloves,0,0,"로이쉬 레이싱 장갑 라인(R-TEX XT, SC, GS, Team Mitten, Junior 등). 공식 사이트 레이싱 장갑 카테고리에서 확인. 이 청크의 '레이싱 장갑' 매물은 라인명이 없어 연결하지 않음.",https://www.reusch.com/en/ski-gloves/racing-gloves/
+rexxam/r-evo,rexxam,REXXAM,R-EVO,boots,1,8,"렉삼(REXXAM) R-EVO 부츠 계열. 판매글에 110R/110M/110MV/120/M 100 등 표기, 세부 모델명은 미검증이라 패밀리 수준만 사용. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+rossignol/alias,rossignol,Rossignol,Alias,boots,0,1,구형 와이드 핏 컴포트 부츠(Alias 120 등).,
+rossignol/allspeed,rossignol,Rossignol,Allspeed,boots,0,1,구형 올라운드 부츠 라인. 판매글 언급: 21/22 올스피드 120 정가 74만원.,
+rossignol/arcade,rossignol,Rossignol,Arcade,ski,1,1,"25/26 올마운틴 라인(Arcade 88, Arcade W 84).",https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/
+rossignol/cobra,rossignol,Rossignol,Cobra,ski,0,2,"1990~2000년대 구형 카빙 스키(Power Cobra, Cobra VAS 등). 세부 모델·가격 미확인.",
+rossignol/controle,rossignol,Rossignol,Controle,apparel,1,1,남성 스키 자켓 Controle.,
+rossignol/demo,rossignol,Rossignol,Demo,ski,2,6,"2010년대 아시아 시장 데모 스키(Demo Alpha, Demo Beta). Super Virage 이전 세대 데모 라인으로 추정. 공식 가격 미확인.",
+rossignol/demo-boots,rossignol,Rossignol,Demo (boots),boots,1,2,"데모·인터스키용 부츠(Demo 105 SC 20/21 → 21/22부터 Super Virage 105 SC, Demo World Cup 125 SC).",https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=4
+rossignol/demo-line,rossignol,Rossignol,Demo Line (Asian fit),apparel,0,9,국내 아시안핏 데모(기술선수권) 의류 라인. 제품코드 미확인.,
+rossignol/fonction,rossignol,Rossignol,Fonction,apparel,0,2,남성 Fonction 스키 자켓/팬츠.,
+rossignol/hero,rossignol,Rossignol,Hero,ski,10,126,"로시뇰 레이싱·레이스카버 스키 라인. Hero Athlete(FIS SL/GS, 비FIS GS, 주니어 SL Pro/GS Pro), Hero Master ST/LT R22(비FIS 레이스카버, 국내 기술·데모용), Hero Elite ST Ti(26/27부터 Hero ST Ti), Hero Mogul Accelere, Hero Jr. 국내 매물의 '로시뇰 월드컵'은 대부분 Hero Athlete FIS SL(165/157).",https://joyleports.com/product/list.html?cate_no=49 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/ https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/?page=2 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/?page=3
+rossignol/hero-world-cup,rossignol,Rossignol,Hero World Cup,boots,7,29,"레이싱 부츠 라인. 플러그 ZA+/ZA/ZB/ZC, 130/110 Medium(MV, 라스트 100), 110 SC·90 SC(여성·주니어 숏커프). 국내 매물 '로시뇰 월드컵 부츠'.",https://joyleports.com/product/list.html?cate_no=67 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/ https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=2 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=3 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=4
+rossignol/hi-speed,rossignol,Rossignol,Hi-Speed,boots,1,5,"중상급 부츠. 22/23 Hi-Speed 80/100/120 HV, Hi-Speed Pro 110 MV, 26/27 BOA 버전.",https://joyleports.com/product/list.html?cate_no=67 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=4
+rossignol/leny,rossignol,Rossignol,Leny,apparel,1,4,비니 Leny.,
+rossignol/nova,rossignol,Rossignol,Nova,ski,3,5,여성 전용 올라운드 스키(Nova 2/4/6/8/10/14). 시스템 바인딩(Xpress W/NX Konect) 포함 판매.,https://joyleports.com/product/list.html?cate_no=49 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/?page=2
+rossignol/pure,rossignol,Rossignol,Pure,boots,3,14,"여성 전용 부츠(Pure Pro 80/90, Pure Elite 80, 26/27 Pure 85/95 Pro BOA).",https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=3 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=4
+rossignol/signature,rossignol,Rossignol,Signature,ski,1,1,"헤리티지 디자인 한정 라인(Signature Palmares, Signature Strato Course). 24/25~25/26.",https://joyleports.com/product/list.html?cate_no=49 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/
+rossignol/soul,rossignol,Rossignol,Soul,ski,1,1,Rossignol 프리라이드 Soul 7 등,
+rossignol/speed,rossignol,Rossignol,Speed,boots,2,14,"와이드 라스트(104, HV+) 중급 부츠. 22/23까지 'Speed 120/100', 23/24부터 'Speed 120 HV+ GW', 'Speed 100 HV+'.",https://joyleports.com/product/list.html?cate_no=67 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=2 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/161/?page=4
+rossignol/super-virage,rossignol,Rossignol,Super Virage,ski,2,12,"아시아(한국·일본) 시장용 데모(기술선수권) 스키. 세대 번호 IV(20/21)·V(20/21)·VI(21/22)·VII(22/23)·VIII(23/24~26/27 Tech)·IX(26/27 LTD). Tech=Konect 플레이트+SPX14 Konect, LTD=R22 레이스 플레이트+SPX14 Rockerace, Oversize 별도. 세대 번호는 시즌 속성으로 보고 Tech/LTD를 모델로 둠.",https://joyleports.com/product/list.html?cate_no=49 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/?page=2 https://sportscore.co.kr/category/%EB%A1%9C%EC%8B%9C%EB%86%80/124/?page=3
+rossignol/super-virage-apparel,rossignol,Rossignol,Super Virage (apparel),apparel,1,7,"국내 판매 로시뇰 의류 Super Virage 라인(제품코드 ROJ=자켓, ROP=팬츠). 판매글 기준.",
+rossignol/track,rossignol,Rossignol,Track,boots,1,2,하이크 모드가 있는 올마운틴 부츠(Track 130 HV+ GW 등). 25/26 이후 Alltrack 계열과 병행.,
+roxa/r-fit,roxa,Roxa,R/FIT,boots,0,1,록사(ROXA) R/FIT 계열 추정(판매글 'ROXA fit mv'). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+rudis/downhill,rudis,Rudis,Downhill,gloves,1,2,"루디스 다운힐 장갑(주니어 '다운힐J'). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+rudis/ft,rudis,Rudis,FT,gloves,1,0,"루디스 FT 코드 삼지 가죽장갑(판매글 'FT-S 소가죽', 22/23 시즌 모델). 웹검색 한도 소진으로 미확인, 판매글 근거.",
+rudis/pro-grip,rudis,Rudis,Pro Grip,gloves,0,1,"루디스(국내 스키장갑 브랜드, 영문 표기 미확인) 프로그립. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+salomon/addikt,salomon,Salomon,Addikt,ski,1,5,온피스트 올라운드 라인. Addikt Pro는 25/26부터 'Addikt Pro 76'으로 표기(66 신설).,https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=5 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=8
+salomon/driver,salomon,Salomon,Driver,helmet,3,8,바이저 일체형 헬멧. Driver Pro Sigma / Pro Sigma MIPS / Pro Sigma Photo MIPS / Prime Sigma Plus(MIPS) / Prime Sigma Photo MIPS 구분.,https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=5 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=6
+salomon/equipe,salomon,Salomon,Equipe,ski,2,2,"26/27 풀체인지 레이스 라인: S/Lab Equipe SL(Prime 후속), Equipe SL Pro/12/10, Equipe MT Jr, Equipe Jr S. 구형 Equipe 3V(2000년대 후반)도 같은 명칭 계열로 묶음.",https://one8.co.kr/product/list.html?cate_no=3993 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/
+salomon/equipe-3v,salomon,Salomon,Equipe 3V (2000s),ski,0,1,"2000년대 후반~2010년대 초 살로몬 레이스 라인(Equipe 3V Race Lab 등, 판매글 '3V LAB', '3V 주니어 월드컵'). 26/27 신형 Equipe(salomon/equipe)와 별개.",
+salomon/go-to-snow,salomon,Salomon,Go To Snow,bag,1,3,"부츠/장비 백팩(Go To Snow 50L/90L, Race 버전).",https://one8.co.kr/product/list.html?cate_no=4035 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=6
+salomon/husk,salomon,Salomon,Husk,helmet,1,2,"일반 쉘 헬멧(국내 표기 허스크). Husk Pro, Husk MIPS 등. 판매처 정가 미확인.",
+salomon/mtn,salomon,Salomon,MTN,poles,1,1,"백컨트리/올마운틴 길이조절 폴(MTN Alu S3, MTN Jr).",https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=2
+salomon/osmo,salomon,Salomon,Osmo,helmet,2,2,"바이저 헬멧(국내 표기 오스모). Osmo, Osmo Sigma, Osmo Sigma Photo, Osmo Pro Sigma Photo.",https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=4 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=5
+salomon/pioneer,salomon,Salomon,Pioneer,helmet,1,1,"보급형 헬멧. Pioneer LT RF(~25/26), 26/27 Pioneer 3 / Pioneer 3 Access.",https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=12
+salomon/qst,salomon,Salomon,QST,ski,1,1,프리라이드/올마운틴 라인. QST Blank(일반)와 S/LAB QST Blank(26/27~)는 별개.,https://www.evo.com/products/265070-salomon-s-lab-qst-blank-skis-2026
+salomon/s-max,salomon,Salomon,S/Max,ski,3,5,"카빙/올라운드 스키. N°표기(N°6, N°6 XT, N°8, N12)는 국내 판매처에서 여성 스키로 분류, 무표기 S/Max 8/10/12는 남성/공용. 부츠 S/Max는 salomon/s-max-boots.",https://one8.co.kr/product/list.html?cate_no=3993 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=7
+salomon/s-max-boots,salomon,Salomon,S/Max (boots),boots,2,3,X Max 후속 98mm 라스트 부츠 S/Max 130/120. 스키 S/Max(salomon/s-max)와 구분하려고 -boots 접미어 사용.,
+salomon/s-pro,salomon,Salomon,S/Pro,boots,10,28,"S/Pro 부츠 라인: Alpha(레이스핏, 23/24까지 '130 EL' 표기), Supra(BOA/Dual BOA/버클), Delta(25/26 신설, BOA/버클), HV, Sport.",https://one8.co.kr/product/list.html?cate_no=4035 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/ https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=3
+salomon/s-race,salomon,Salomon,S/Race,ski,10,104,"살로몬 레이스/테크니컬 스키 라인(~25/26). FIS SL(월드컵), Prime SL/GS(반드컵), SL Pro, SL 12, SL 10, GS Pro, S/Race 8, 주니어 FIS SL/GS Jr. 26/27부터 'Equipe' 라인으로 개편.",https://one8.co.kr/product/list.html?cate_no=3993 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=8 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=9
+salomon/s-race-boots,salomon,Salomon,S/Race (boots),boots,0,1,"레이스 부츠 S/Race(성인 130 WC 등, 주니어 60T/90). 스키 S/Race와 구분하려고 -boots 접미어 사용.",https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=10
+salomon/select,salomon,Salomon,Select,boots,1,1,중급 와이드 부츠 Select HV(100/120/80 W).,https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=3 https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=9
+salomon/sentry,salomon,Salomon,Sentry,goggle,1,1,"고글 라인. Sentry Pro Sigma Photo(변색), Sentry Pro OTG, Sentry Prime.",https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=6
+salomon/streetracer,salomon,Salomon,Streetracer,ski,0,1,구형 입문 카빙 라인(판매글 표기 'STREET RACER'). 미검증.,
+salomon/x-access,salomon,Salomon,X Access,boots,2,3,"입문용 부츠 라인(X Access 90, 70 W Wide 등).",
+salomon/x-max,salomon,Salomon,X Max,boots,6,11,S/Max 이전(~2019) 퍼포먼스 부츠 라인(X Max 130/120/110 W/100 W/LC 100/60).,https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=7
+salomon/x-pro,salomon,Salomon,X Pro,boots,2,7,S/Pro 이전(~2019/20) 와이드 커스텀쉘 부츠 라인(X Pro 130/110/100 W).,https://sportscore.co.kr/category/%EC%82%B4%EB%A1%9C%EB%AA%AC/421/?page=10
+salomon/x-race,salomon,Salomon,X-Race,ski,1,2,S/Race 이전(~2010년대 중반) 레이스 라인. 주니어 X-Race Jr SL 등.,
+scarpa/maestrale,scarpa,Scarpa,Maestrale,boots,1,1,스카르파 알파인 투어링 부츠 Maestrale(RS 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+schoffel/austria-team,schoffel,Schöffel,Austria Ski Team,apparel,0,14,"쉐펠(Schöffel) 오스트리아 스키팀(ÖSV) 팀복 상하의(사이드 풀집업 팬츠). 정확한 품명·정가 미확인. 판매글 연식 '23'. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+schoffel/weissach,schoffel,Schöffel,Weissach,apparel,1,1,"쉐펠 Weissach 스키 팬츠(판매글: Bliggs Jacket과 세트 구성 중 하의만). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+scott/reactor,scott,Scott,Reactor,goggle,1,5,"스콧 Reactor 고글(자석식 렌즈, 앰플리파이어 렌즈). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+scott/symbol,scott,Scott,Symbol,helmet,1,1,스콧 Symbol 헬멧. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+scott/voodoo,scott,Scott,Voodoo,boots,1,1,스콧 텔레마크 부츠 Voodoo(75mm/NTN). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+sena/sk10,sena,Sena,SK10,other,1,1,세나 스키 헬멧용 블루투스 인터컴 SK10.,
+sidas/race-boot-bag,sidas,Sidas,Race Boots Bag,bag,0,1,시다스 Race Boots Bag 60L. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+sinano/free,sinano,SINANO,FREE (길이조절),poles,4,8,"시나노 길이조절(가변) 폴 FREE 시리즈: FREE FAST-α(First Penguin 그래픽 포함), FREE SV-LT, FREE X",https://steep.jp/en/catalog/sinano
+ski-trab/altavia,ski-trab,Ski Trab,Altavia,ski,1,1,Ski Trab 산악(백컨트리) 스키 Altavia. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+skitzo/acc-pak,skitzo,Skitzo,ACC PAK,bag,0,2,스킷조 미니 악세사리 파우치. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+skitzo/icon,skitzo,Skitzo,Icon,bag,1,3,스킷조(SKITZO) 아이콘 백팩(부츠가방 60L). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+skitzo/skadi,skitzo,Skitzo,Skadi,gloves,0,1,"스킷조 스카디 장갑. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+skitzo/tour,skitzo,Skitzo,Tour,bag,1,2,"스킷조 2구(바퀴 2개) 투어휠백, 스키 2대+부츠 수납. 미검증.",
+skitzo/warm-mitt,skitzo,Skitzo,Warm Mitt,gloves,2,5,"스킷조/스키조(영문 표기 미확인) 웜미트 라인: 삼지(3지), 프로 주니어, 수퍼지 등. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+skkil/protector-strips,skkil,SKKIL,Protector Strips,other,0,8,SKKIL 스키 상판 보호 테이프(4개 1세트). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+skkil/race-mittens,skkil,SKKIL,Race Mittens,gloves,0,6,"SKKIL(스킬, 프랑스 알파인 레이싱 용품) 레이스 미튼: 겉은 벙어리, 내부 손가락 분리. 주니어 6.5, 성인 최소 7호. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+slytech/fortress,slytech,Slytech,Fortress,gloves,0,1,"슬라이텍(Slytech) 포트리스 레이싱 장갑(판매자 표기). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+smartwool/ski-targeted-cushion,smartwool,Smartwool,Ski Targeted Cushion,apparel,0,1,스마트울 스키 양말 Targeted Cushion 라인. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+smith/4d-mag,smith,Smith,4D MAG,goggle,3,31,"BirdsEye Vision 최상위 고글. 4D MAG/4D MAG XL/4D MAG S, 각 Low Bridge Fit(아시안핏) 변형. 노스페이스 콜라보는 컬러웨이.",https://joyleports.com/product/list.html?cate_no=91 https://www.smithoptics.com/en-us/products/4d-mag https://www.smithoptics.com/en-us/products/4d-mag-xl
+smith/descend,smith,Smith,Descend,helmet,2,1,Descend(일반)/Descend MIPS/Descend Jr MIPS.,https://www.smithoptics.com/en-us/products/descend https://www.smithoptics.com/en-us/products/descend-mips-r
+smith/holt,smith,Smith,Holt,helmet,0,0,보급형 헬멧(구형). 가격 미확인.,
+smith/io,smith,Smith,I/O,goggle,3,9,"I/O(구형 비MAG), I/O MAG, I/O MAG XL, I/O MAG S.",https://www.smithoptics.com/en-us/products/i-o-mag https://www.smithoptics.com/en-us/products/i-o-mag-xl
+smith/level,smith,Smith,Level,helmet,2,5,Level(일반)과 Level MIPS 두 모델. 국내 판매처는 MIPS 없는 모델을 '레벨'로 표기.,https://www.smithoptics.com/en-us/products/level https://www.smithoptics.com/en-us/products/level-mips-r
+smith/liberty,smith,Smith,Liberty,helmet,1,1,여성용 헬멧(Level의 여성판). Liberty/Liberty MIPS.,https://www.smithoptics.com/en-us/products/liberty-mips-r
+smith/lowdown,smith,Smith,Lowdown,other,1,1,"선글라스 라인(Lowdown 2, Lowdown XL 2, Lowdown Slim 2).",https://www.smithoptics.com/en-us/products/lowdown-xl-2
+smith/maze,smith,Smith,Maze,helmet,0,4,"경량 스노우 헬멧(구형). MIPS 여부 매물에 미기재, 가격 미확인.",
+smith/method,smith,Smith,Method,helmet,2,4,Method/Method MIPS/Method Pro MIPS(25/26 신규).,https://www.smithoptics.com/en-us/products/method-mips-r https://www.smithoptics.com/en-us/products/method-pro-mips-r
+smith/mission,smith,Smith,Mission,helmet,2,3,"경량 헬멧. Mission/Mission MIPS, 현재 이월(Past Season).",https://www.smithoptics.com/en-us/products/mission-mips-r-sale https://www.smithoptics.com/en-us/products/mission-sale
+smith/nexus,smith,Smith,Nexus,helmet,1,21,스미스 최상위 올마운틴 헬멧. Nexus는 MIPS 단일 모델(Round Contour Fit=아시안핏 변형).,https://joyleports.com/product/list.html?cate_no=98 https://www.smithoptics.com/en-us/products/nexus-mips-r
+smith/preview,smith,Smith,Preview,goggle,1,2,"BirdsEye Vision 대형 고글, 25/26 신규. 국내 판매처는 OTG 표기.",https://www.smithoptics.com/en-us/products/preview
+smith/prospect,smith,Smith,Prospect,helmet,1,3,주니어 헬멧 Prospect Jr. MIPS(Zonal Koroyd).,https://www.smithoptics.com/en-us/products/prospect-jr-mips-r
+smith/quantum,smith,Smith,Quantum,helmet,1,4,"구형 최상위 헬멧(Aerocore+MIPS), 현행 공식몰에 없음. 가격 미확인.",https://smithkorea.co.kr/
+smith/reason,smith,Smith,Reason,goggle,1,1,Reason OTG 안경 겸용 고글.,https://www.smithoptics.com/en-us/products/reason-otg
+smith/skyline,smith,Smith,Skyline,goggle,1,1,Skyline/Skyline XL(이월).,https://www.smithoptics.com/en-us/products/skyline-xl
+smith/squad,smith,Smith,Squad,goggle,4,27,"Squad(일반), Squad XL(최대 원통형, 이월), Squad MAG(자석 렌즈), Squad S.",https://www.smithoptics.com/en-us/products/squad https://www.smithoptics.com/en-us/products/squad-mag https://www.smithoptics.com/en-us/products/squad-xl
+smith/survey,smith,Smith,Survey,helmet,1,1,"스미스 바이저 일체형 헬멧(ChromaPop 바이저, MIPS+Koroyd, 다이얼 핏). 25/26 신규.",https://www.smithoptics.com/en-us/products/survey-mips-r
+smith/vantage,smith,Smith,Vantage,helmet,3,13,스미스 Vantage 헬멧 라인.,https://www.smithoptics.com/en-us/products/vantage-2 https://www.smithoptics.com/en-us/products/vantage-2-mips-r https://www.smithoptics.com/en-us/products/vantage-mips-r
+sony/action-cam,sony,Sony,Action Cam,other,1,2,"소니 액션캠(스키용품 아님, 기타 분류).",
+sony/handycam,sony,Sony,Handycam,other,2,3,소니 핸디캠 캠코더(스키 촬영용 매물).,
+sportube/series,sportube,Sportube,Series,bag,1,2,스포튜브 하드케이스 Series 1/2/3. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+spyder/sanction,spyder,Spyder,Sanction,apparel,2,1,"생크션 자켓 SPJWCISJ404M, 생크션 빕 쉘 팬츠 SPJWCISP404M(스파이더 코리아 품번)",
+spyder/team-usa,spyder,Spyder,US Ski Team Replica,apparel,0,16,"미국 스키 국가대표 레플리카 팀복(GTX 자켓, 미들러)",
+stockli/laser,stockli,Stöckli,Laser,ski,7,25,"Laser SL/GS FIS(월드컵), Laser SL/GS(비FIS 레이스카버), SC/SX/WRT Pro(카빙)",https://www.onthesnow.co.uk/news/skitest/stockli-2025/laser-gs/2025/ https://www.schneehoehen.de/skitest/race-sl/stoeckli-laser-sl-2022-2023 https://www.skiessentials.com/2023-ski-test/skis/2023-stockli-laser-sc https://www.skiessentials.com/products/2027-stockli-laser-sl-fis-skis-w-salo-98-sl-plate-and-wrt-16i-bindings-41011127
+sweet-protection/clockwork,sweet-protection,Sweet Protection,Clockwork,goggle,0,2,Clockwork RIG Reflect / MAX / WC,
+sweet-protection/crusader,sweet-protection,Sweet Protection,Crusader,apparel,1,2,Sweet Protection Crusader 의류 라인,https://www.sweetprotection.com/eu/en/crusader-gore-tex-infinium-jacket-womens-black/
+sweet-protection/durden,sweet-protection,Sweet Protection,Durden,goggle,0,1,,
+sweet-protection/interstellar,sweet-protection,Sweet Protection,Interstellar,goggle,0,1,,
+sweet-protection/konner,sweet-protection,Sweet Protection,Konner,goggle,0,1,프레임리스,
+sweet-protection/switcher,sweet-protection,Sweet Protection,Switcher,helmet,1,1,,
+sweet-protection/trooper,sweet-protection,Sweet Protection,Trooper,helmet,1,5,Trooper 2Vi MIPS / 2Vi SL MIPS(카본),
+swix/evo,swix,Swix,EVO,tuning,1,9,Swix EVO 전동 사이드 엣지 튜너,https://swixsport.com/eu/ta3012-evo-pro-edge-tuner-220v--TA3012-220-V
+swix/tech-pack,swix,Swix,Tech Pack,bag,1,3,Swix Tech Pack 70L 코치/부츠백,https://race-werks.com/swix-tech-pack
+swix/world-cup-vise,swix,Swix,World Cup Vise,tuning,1,1,Swix 월드컵 바이스,
+tecnica/firebird,tecnica,Tecnica,Firebird,boots,1,11,"테크니카 레이스 계열 부츠 라인(Firebird WC, Firebird R 등). 블리자드 Firebird 스키와 구분.",
+tecnica/mach-boa,tecnica,Tecnica,Mach BOA,boots,3,6,"BOA 다이얼 쉘 클로저 라인(국내 '테크니카 보아', '원보아'). HV 103mm / MV 100mm, 플렉스 130·120·110·90 및 여성 105·95·85·75 W. 26/27 MV 130 Dual 추가. HV 130은 국내·아시아 판매 확인(북미 판매처 미확인).",https://www.evo.com/products/281812-tecnica-mach-boa-mv-130-dual-ski-boots-2027 https://www.evo.com/shop/ski/boots/tecnica https://www.skiessentials.com/products/2025-tecnica-machboa-120-hv-ski-boots-101868g2 https://www.skiessentials.com/products/2027-tecnica-mach-120-hv-boa-ski-boots-101868g2406
+tecnica/mach-sport,tecnica,Tecnica,Mach Sport,boots,1,1,"입문~중급 라인(Mach Sport HV/MV, 여성 W). 플렉스 65~100, 그립워크(GW).",https://www.evo.com/shop/ski/boots/tecnica
+tecnica/mach1,tecnica,Tecnica,Mach1,boots,9,42,"테크니카 주력 4버클 부츠. 라스트 LV 98mm / MV 100mm / HV 103mm, 플렉스 130·120·110·100 및 여성 115·105·95 W. 20/21~25/26 'TD GW'(T-Drive 스파인, 그립워크) 표기, 26/27 T-Drive 2.0(TD2) 세대. 주니어 Mach1 Jr(플렉스75).",https://www.evo.com/products/267375-tecnica-mach1-jr-ski-boots-kids-2026 https://www.evo.com/shop/ski/boots/tecnica https://www.skiessentials.com/collections/tecnica https://www.skiessentials.com/products/2027-tecnica-mach1-130-mv-ski-boots-101g04g0
+the-mountain-studio/y-1,the-mountain-studio,The Mountain Studio,Y-1,apparel,2,4,"The Mountain Studio Y-1 하드쉘 팬츠(EPE/HD 버전). 국내 BHS·롯데 에비뉴엘 판매. 판매글 정가 Y-1 EPE 137만원. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+the-mountain-studio/z-2,the-mountain-studio,The Mountain Studio,Z-2,apparel,1,8,"마운틴스튜디오 하드쉘 자켓 Z-2(매물 표기 'Z-2 EPE', 25/26). 판매자 설명상 일본 브랜드 사이즈 대비 크게 나옴. 미검증.",
+the-north-face/ceptor,the-north-face,The North Face,Ceptor,apparel,1,2,해외판 DryVent 3L 스키 쉘(국내 미판매),https://blisterreview.com/gear-reviews/the-north-face-ceptor-jacket
+the-north-face/dragline,the-north-face,The North Face,Dragline,apparel,0,1,해외판 여성 스키 라인(Dragline Jacket/Bib),
+the-north-face/kantega,the-north-face,The North Face,Kantega,apparel,0,1,국내 노스페이스 칸테가 쉘 자켓(웹 미검증),
+the-north-face/pilatus,the-north-face,The North Face,Pilatus,apparel,1,1,"서밋 시리즈 필라투스 고어텍스 재킷(판매글 기준, 웹 미검증)",
+the-north-face/whistler,the-north-face,The North Face,Whistler GTX,apparel,2,15,"영원아웃도어(노스페이스 코리아) 스키 라인. 휘슬러 GTX 스키 재킷(NJ2GR98*)·팬츠(NP6GR98*), 25/26 프리스타일 국가대표 유니폼. 11번가 등 할인가 47~64만원(정가 미확인)",https://www.insight.co.kr/news/541794 https://www.thenorthfacekorea.co.kr/product/NP6GR98A https://www.thereport.co.kr/news/articleView.html?idxno=83675
+therm-ic/c-pack,therm-ic,Therm-ic,C-Pack,other,2,35,"썰믹(Therm-ic) 발열 인솔·히트키트용 배터리 팩(한 쌍). 현행 공식 라인업: C-Pack 1300, C-Pack 1300B, C-Pack 1700B(B=블루투스 앱 제어). 1700은 B 버전만 현행 확인. 국내 매물 표기 'C팩', 'c1700', '열선 1700'.",https://www.therm-ic.com/collections/socks-batteries-chargers https://www.therm-ic.com/products/64-c-pack-1700-b
+therm-ic/liner,therm-ic,Therm-ic,Liner,gloves,1,4,"Therm-ic 이너 글러브 라인. 판매글 'THERM-IC POLAR LINER 이너글러브'. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+therm-ic/refresher,therm-ic,Therm-ic,Refresher,other,1,1,썰믹 신발·부츠 건조기 Refresher. 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+toni-sailer/leon,toni-sailer,Toni Sailer,Leon,apparel,1,2,Tony Sailer(토니세일러) LEON 남성 스키 자켓(매물 표기).,
+uvex/athletic,uvex,Uvex,Athletic,goggle,1,1,Athletic FM(풀미러) 고글.,
+uvex/contest,uvex,Uvex,Contest,goggle,1,0,레이싱 라인 고글. Contest CV(컬러비전 렌즈).,
+uvex/downhill-2100,uvex,Uvex,Downhill 2100,goggle,3,2,렌즈별 별도 모델: CV/V/VPX/WE 등. 렌즈 미기재 시 패밀리만.,
+uvex/evidnt,uvex,Uvex,Evidnt,goggle,2,11,상위 고글 라인. Attract는 마그네틱 교체 여분렌즈 포함 버전.,
+uvex/jakk,uvex,Uvex,Jakk+,helmet,1,8,Jakk+ IAS 하이브리드 헬멧. 국내 표기 'JAKK IAS'(+ 생략)도 동일. Limited Edition은 그래픽 변형.,https://joyleports.com/product/list.html?cate_no=96
+uvex/levitate,uvex,Uvex,Levitate,helmet,1,2,"판매자 표기 'levitate MIPS', 일본 직구·국내 미수입 모델이라고 기재. 웹 검증 못함(검색 한도 소진).",
+uvex/resolution,uvex,Uvex,Resolution,helmet,3,4,2526 출시 ultimate 라인 헬멧. Resolution(일반)/Resolution MIPS/Resolution SL(슬라럼). 사이즈 52-55/55-59/59-61.,https://joyleports.com/product/list.html?cate_no=96 https://www.uvex-sports.com/de/wintersport/skihelme/s5663381007-uvex-ultimate-resolution-mips-black-matt-4043197395432
+uvex/rocket,uvex,Uvex,Rocket,helmet,1,9,주니어 헬멧 라인(Rocket Jr. Visor 등).,
+uvex/stance,uvex,Uvex,Stance,helmet,2,6,"올라운드 헬멧. Stance(일반)/Stance MIPS. AF(아시안핏) 표기는 핏 변형으로 동일 모델 취급. 국내 소비자가 일반 22만, MIPS 29만(2425).",https://joyleports.com/product/list.html?cate_no=96
+uvex/ultra,uvex,Uvex,Ultra,helmet,1,2,"Ultra/Ultra MIPS. 국내 2324 'ultra white-black matt' 소비자가 29만(MIPS 여부 미기재, 품번 S566248).",https://joyleports.com/product/list.html?cate_no=96
+uvex/victorious,uvex,Uvex,Victorious,goggle,6,2,ultimate victorious 라인. CV(컬러비전)/Pro V(변색 S0-S4). OTG 가능.,https://joyleports.com/product/list.html?cate_no=28 https://www.uvex-sports.com/de/wintersport/skibrillen/s5501872030-uvex-ultimate-victorious-pro-v-black-matt-vario-red-mirror-4043197392660 https://www.uvex-sports.com/de/wintersport/skibrillen/s5501902130-uvex-ultimate-victorious-cv-black-matt-mirror-platin-4043197392653
+uvex/wanted,uvex,Uvex,Wanted,helmet,1,1,보급형 헬멧. 2425 소비자가 19만.,https://joyleports.com/product/list.html?cate_no=96
+van-deer/gs,van-deer,Van Deer,GS,ski,1,4,Van Deer-Red Bull Sports GS 계열(World Cup/Pro). 25/26 'Pro'는 26/27 'GS Pro'의 전신,https://www.sport-conrad.com/en/products/van-deer-red-bull-sports-pro-khaki-comp-16-25-26-skis-with-bindings https://www.sport-conrad.com/en/products/van-deer-red-bull-sports/gs-pro-grey-comp-16-26-27.html
+van-deer/pro-boots,van-deer,Van Deer,Pro (boots),boots,1,2,"반디어 부츠 '프로 130'(인튜이션 이너·시다스 파워스트랩, 판매글). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",
+van-deer/sl,van-deer,Van Deer,SL,ski,1,2,Van Deer-Red Bull Sports SL 계열,https://www.snowleader.com/en/sl-world-cup-xcomp-16-2025-VAND00090.html https://www.snowleader.com/sl-world-cup-w-r22-wc-plate-2024-VAND00040.html
+volant/pulse,volant,Volant,Pulse,ski,0,1,"판매글 표기 'VOLANT PULSE'만 확인, 웹 검증 못함",
+volkl/bash,volkl,Völkl,Bash,ski,1,1,트윈팁 올마운틴/프리스타일(Bash 81 등).,
+volkl/bmt,volkl,Völkl,BMT,ski,0,1,백컨트리/파우더 카본 라인(BMT 94/109/122 등).,
+volkl/deacon,volkl,Völkl,Deacon,ski,5,8,"온피스트 올라운드 라인(~23/24). 24/25 전후 Peregrine으로 대체. 74/75/76/79/84, 72, 76 Master 등.",
+volkl/flair,volkl,Völkl,Flair,ski,0,1,여성 온피스트 라인(Flair 76 등). 'Flair ST' 표기 매물의 정확한 모델 미확인.,
+volkl/kendo,volkl,Völkl,Kendo,ski,2,3,올마운틴(Kendo 88/92). 단종 후 Mantra 라인으로 통합.,
+volkl/mantra,volkl,Völkl,Mantra,ski,3,8,"뵐클 올마운틴 라인(M6/M7, 88, 102, Jr 등). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).",https://www.skiessentials.com/collections/volkl
+volkl/peregrine,volkl,Völkl,Peregrine,ski,2,5,"Deacon 후속 온피스트 라인(72/76/80/82, 76 Master 등). 제품코드 V23xxxxx 표기 매물 존재.",https://volkl.com/en-us/p/peregrine-72-green-skis-v2610025 https://volkl.com/en-us/p/peregrine-76-master-skis-v2610020
+volkl/phantastick,volkl,Völkl,Phantastick,poles,0,1,"뵐클 길이조절 폴(Phantastick, Phantastick Jr 등).",https://volkl.com/en-us/p/phantastick-jr-poles-14102
+volkl/platinum,volkl,Völkl,Platinum,ski,1,2,"구형 플래티넘 라인(Speedwall 등, 2000년대 후반~2010년대 초).",
+volkl/racetiger,volkl,Völkl,Racetiger,ski,13,210,헤드 청크에 섞인 뵐클 매물(헤드 i.SL 증정).,https://volkl.com/en-us/p/racetiger-gs-master-skis-v2610001 https://volkl.com/en-us/p/racetiger-sc-black-skis-v2611007 https://volkl.com/en-us/p/racetiger-sl-master-skis-v2611003 https://volkl.com/en-us/p/racetiger-sl-r-wc-fis-wc-plate-skis-v2610851
+volkl/revolt,volkl,Völkl,Revolt,ski,1,2,"프리스타일/파크 라인(Revolt 87/96/104, 주니어 Revolt Jr 등).",https://volkl.com/en-us/p/revolt-114-skis-v2610152 https://volkl.com/en-us/p/revolt-jr-park-skis-v2610297
+volkl/rtm,volkl,Völkl,RTM,ski,0,1,구형 온피스트 라인(RTM 7.x/80/84 등).,
+volkl/secret,volkl,Völkl,Secret,ski,1,3,"여성 올마운틴(Secret 92 등, Mantra 여성판).",https://www.skiessentials.com/collections/volkl-skis
+volkl/tigershark,volkl,Völkl,Tigershark,ski,0,1,"구형 카빙 라인(Power Switch 적용, 2000년대 후반~2010년대 초).",
+volkl/wall,volkl,Völkl,Wall,ski,0,1,파크 트윈팁(단종).,
+watts/krind,watts,Watts,Krind,apparel,1,1,"WATTS KRIND 자켓 + KODEO 팬츠(국내 판매 아시안핏). 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+zuica/cube,zuica,ZUICA,Cube,apparel,0,1,"주이카 큐브라인(26/27 카키) 매물 1건. 세트 여부 미확인. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",
+zuica/demo,zuica,ZUICA,Demo line,apparel,0,3,주이카(ZUICA) 데모라인 스키복(판매글 '데모라인'). 웹 검색 한도 소진으로 이 청크에서 신규 검증 못함(판매글 표기 기반).,
+zuica/fun-move,zuica,ZUICA,Fun Move,apparel,1,4,"주이카(ZUICA, 일본 스키복) 펀 무브(FUN MOVE) 자켓+팬츠. 24/25~26/27 매물, 색상 블루 마젠타·올리브 카키·레드. 웹검색 한도 소진으로 공식 페이지 미확인, 판매글 근거.",

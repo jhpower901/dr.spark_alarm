@@ -1,0 +1,29 @@
+# 이미지에 넣지 않는 것: 비밀값, DB·로그(개인정보 포함), 개발 도구 산출물
+.env
+.env.*
+!.env.example
+.git/
+.gitignore
+.venv/
+venv/
+.idea/
+.vscode/
+.cache/
+data/
+*.db
+*.db-*
+*.log
+*.log.*
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+tests/
+deploy/
+Dockerfile
+compose.yaml
+.dockerignore
+tools/
+docs/
+
+# 로컬 배포 파일(이전 번들 포함)
+dist/

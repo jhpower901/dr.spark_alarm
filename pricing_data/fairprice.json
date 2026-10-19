@@ -1,0 +1,98 @@
+{
+ "version": "fairprice-1.0",
+ "params": {
+  "k_mult": 1.0,
+  "ridge_alpha": 0.3,
+  "backfit_iter": 4,
+  "monotone_grade": true,
+  "use_gbm": true,
+  "blend_w": 0.2,
+  "inner_splits": 5,
+  "min_n_basis": 3,
+  "alpha": 0.2,
+  "min_cal_n": 30,
+  "gbm_params": {
+   "n_estimators": 500,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 15,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.8,
+   "reg_lambda": 1.0,
+   "verbose": -1,
+   "n_jobs": 1
+  },
+  "seed": 7
+ },
+ "n_train": 3141,
+ "k": {
+  "category": 0.6373979795197959,
+  "subcategory": 3.9956651538531927,
+  "brand_subcat": 2.8246571516855337,
+  "family": 3.606858929221314,
+  "model": 3.6175995749611967,
+  "model_season": 3.5128089196866994
+ },
+ "grade_coef": {
+  "sealed": 0.16116840012499814,
+  "S": 0.1060225726084549,
+  "B": -0.28749620863926256,
+  "C": -0.850881600975572,
+  "unk": -0.3324994639111131
+ },
+ "calibration": {
+  "_all": [
+   0.11772196967075388,
+   0.08707583257243989,
+   3141
+  ],
+  "A": [
+   0.0731011708317908,
+   0.09535691040867711,
+   1374
+  ],
+  "B": [
+   0.11815818906407216,
+   0.12635782521562433,
+   839
+  ],
+  "C": [
+   0.2607904417562157,
+   0.021816247260154853,
+   928
+  ]
+ },
+ "trained_at": "2026-10-19T12:32:24+00:00",
+ "cv": {
+  "scheme": "GroupKFold(5) by seller_key",
+  "mape": 0.4227,
+  "mdape": 0.2226,
+  "pi80_coverage": 0.8013,
+  "within20": 0.4553,
+  "r2_log": 0.7434
+ },
+ "cv_by_grade": {
+  "A": {
+   "mdape": 0.1777,
+   "pi80_coverage": 0.8006,
+   "n": 1374
+  },
+  "B": {
+   "mdape": 0.2649,
+   "pi80_coverage": 0.8057,
+   "n": 839
+  },
+  "C": {
+   "mdape": 0.3013,
+   "pi80_coverage": 0.7985,
+   "n": 928
+  }
+ },
+ "temporal_holdout": {
+  "n": 1312,
+  "MdAPE": 22.919582144651425,
+  "MAPE": 36.471353462736474,
+  "coverage": 80.48780487804879
+ }
+}

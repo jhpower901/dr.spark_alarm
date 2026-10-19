@@ -2,4 +2,16 @@
 requests>=2.31
 urllib3>=2.0
 beautifulsoup4>=4.12
-apscheduler>=3.10
+apscheduler>=3.10,<4
+
+# ---- 적정가 보강(pricing/, drspark/) ----
+# pricing_data/fairprice.pkl은 pickle로 저장한 모델(scikit-learn·LightGBM 객체 포함)이다.
+# 학습할 때와 다른 버전에서 열면 경고가 나거나 예측값이 달라질 수 있으므로 학습 환경과 같은 버전으로 고정한다.
+# 버전을 올리려면 분석 저장소에서 같은 버전으로 다시 학습하고 번들을 다시 내보낸다(README '적정가 번들 갱신').
+# lightgbm은 OpenMP 런타임이 필요하다: Debian/Ubuntu에서는 `apt install libgomp1`.
+# 이 패키지들이 없으면 보강만 꺼지고(로그 경고) 알림은 기존과 같이 나간다.
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+lightgbm==4.5.0
+rapidfuzz==3.10.1

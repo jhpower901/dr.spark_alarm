@@ -2,3 +2,14 @@
 *.log*
 .venv/
 .idea/
+.cache/
+data/
+# 비밀값(.env.example만 올린다)
+.env
+.env.*
+!.env.example
+# 파이썬 바이트코드·테스트 캐시(운영 서버에서 다시 써져 git pull을 막는다)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/

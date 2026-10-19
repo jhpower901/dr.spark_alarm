@@ -1,0 +1,63 @@
+# dr.spark_alarm systemd 유닛 "예시"
+#
+# Docker 없이 전용 사용자와 venv로 돌릴 때 쓰는 일반 예시다. 경로·사용자·venv 위치는 환경에 맞게 바꾼다.
+# Docker Compose 배포와 업그레이드·되돌리기 절차는 docs/DEPLOY.md에 있다.
+# 기존 설치를 바꿀 때는 지금 서비스가 어떻게 떠 있는지 먼저 확인하고 경로(특히 DB가 있는 작업 폴더)를 맞춘다:
+#   systemctl list-units --type=service | grep -i -e drspark -e spark -e alarm
+#   ps -ef | grep -e source.py -e watcher.py
+#   crontab -l; ls /etc/systemd/system
+#
+# 가정
+#   - 코드: /opt/dr.spark_alarm (git clone), venv: /opt/dr.spark_alarm/.venv
+#   - 전용 사용자 drspark (로그인 불가)
+#   - 환경변수: /opt/dr.spark_alarm/.env (.env.example 복사, 권한 600)
+#   - DB·로그: WorkingDirectory(/opt/dr.spark_alarm/data)에 drspark_seen.db, drspark.log
+#
+# 설치(root)
+#   apt install -y python3-venv libgomp1 git
+#   useradd --system --home-dir /opt/dr.spark_alarm --shell /usr/sbin/nologin drspark
+#   git clone https://github.com/jhpower901/dr.spark_alarm.git /opt/dr.spark_alarm
+#   python3 -m venv /opt/dr.spark_alarm/.venv
+#   /opt/dr.spark_alarm/.venv/bin/pip install -r /opt/dr.spark_alarm/requirements.txt
+#   mkdir -p /opt/dr.spark_alarm/data /opt/dr.spark_alarm/.cache
+#   cp /opt/dr.spark_alarm/.env.example /opt/dr.spark_alarm/.env   # 값 채우기
+#   chown -R drspark:drspark /opt/dr.spark_alarm/data /opt/dr.spark_alarm/.cache /opt/dr.spark_alarm/.env
+#   chmod 600 /opt/dr.spark_alarm/.env
+#   cp /opt/dr.spark_alarm/deploy/drspark-alarm.service /etc/systemd/system/
+#   systemctl daemon-reload && systemctl enable --now drspark-alarm
+#   journalctl -u drspark-alarm -f
+#
+# 기존 DB를 옮길 때는 기존 프로세스를 먼저 멈춘 뒤 drspark_seen.db(-wal, -shm 포함)를 data/로 복사한다.
+
+[Unit]
+Description=dr.spark_alarm - drspark ski_sell2 new post Discord alerts (with fair-price enrichment)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=drspark
+Group=drspark
+# source.py는 로그를 현재 폴더의 drspark.log에 쓴다 → data/ 안에 남도록 작업 폴더를 data/로 둔다
+WorkingDirectory=/opt/dr.spark_alarm/data
+EnvironmentFile=/opt/dr.spark_alarm/.env
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONIOENCODING=utf-8
+Environment=TZ=Asia/Seoul
+Environment=DRSPARK_DB=/opt/dr.spark_alarm/data/drspark_seen.db
+ExecStart=/opt/dr.spark_alarm/.venv/bin/python /opt/dr.spark_alarm/source.py
+Restart=on-failure
+RestartSec=30
+# 적정가 모델을 읽는 데 수 초 걸린다(첫 수집은 시작 1분 뒤)
+TimeoutStartSec=120
+NoNewPrivileges=true
+
+# 추가 격리(선택). 비특권 LXC에서는 네임스페이스를 만들지 못해 서비스가 226/NAMESPACE로 실패할 수 있으므로
+# 컨테이너의 nesting 설정을 확인한 뒤에 켠다.
+#ProtectSystem=strict
+#ProtectHome=true
+#PrivateTmp=true
+#ReadWritePaths=/opt/dr.spark_alarm/data /opt/dr.spark_alarm/.cache
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+{
+ "exported_at": "2026-10-19T16:21:08+00:00",
+ "source": "analysis/drspark (drspark_seen_20261016-1654.db 분석)",
+ "model_version": "fairprice-1.0",
+ "model_trained_at": "2026-10-19T12:32:24+00:00",
+ "n_train": 3141,
+ "cv": {
+  "scheme": "GroupKFold(5) by seller_key",
+  "mape": 0.4227,
+  "mdape": 0.2226,
+  "pi80_coverage": 0.8013,
+  "within20": 0.4553,
+  "r2_log": 0.7434
+ },
+ "files": {
+  "drspark/__init__.py": "7c805e8fe92a080e4941f36637026b6803ab7065bca881a13d45c9405a939a37",
+  "drspark/schema.py": "8c5b509964938638140da8c97a20f06582b3430cb197219348d7731c215b9f97",
+  "drspark/parse.py": "e91797350df725c77c8107e4b5f6968175ba846c32d74f087e8ec7f9acac6949",
+  "drspark/taxonomy.py": "45be01ec038d6ba06f683f6de4a9ce41a225da93cd3e1c5e68c9109f52211052",
+  "drspark/listing_units.py": "b3c228380cd0156220ad6b8987f14a9f3474ffbf312a47f72991356012d3b257",
+  "drspark/privacy.py": "edc96d5f5c487954c9fc79911ff04d9b1b9dbf56d59cf7785386ba5884089aa9",
+  "drspark/resolver.py": "b538aa6d4a243018012db973c1bcc1710e290d0e4be529d87f2f62caaefd27c7",
+  "drspark/fairprice.py": "9698481a9ea5285c68e53f1d0d507fe0fd8e060b9df4ec234dfa6940d2eaa3ea",
+  "pricing_data/canonical_models.csv": "bf78f90fc4ee9fa3ac41b2d6b8a8ebf392b59a8a8cdf99fe081c1515b12a49ec",
+  "pricing_data/canonical_families.csv": "d71a6533beaacdf01efeaa0cf156d2059047bc2f8211b3abd68d1ed5b37fd223",
+  "pricing_data/model_aliases.csv": "cfd6951cd1afb8904a28c992b730f60ec6cc9479ca226a8e2e916b80fdc57fc5",
+  "pricing_data/fairprice.pkl": "2a500d8269f56f43bdb179f261797b0da0c891200e24b39ab2c0e31b83c288f1"
+ }
+}

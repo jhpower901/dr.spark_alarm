@@ -1,0 +1,35 @@
+# dr.spark_alarm 실행(프로젝트 이름 drspark-alarm)
+#
+#   cp .env.example .env        # DISCORD_WEBHOOK_URL 등을 채운다
+#   mkdir -p data               # DB(drspark_seen.db)와 로그(drspark.log)가 여기 남는다
+#   docker compose -p drspark-alarm up -d --build
+#   docker compose -p drspark-alarm logs -f alarm
+#
+# 컨테이너는 UID 1000(Dockerfile의 APP_UID)으로 돈다. ./data가 다른 사용자 소유면 쓰기에 실패하므로
+# `sudo chown 1000:1000 data` 하거나 아래 build.args를 호스트 사용자 UID/GID로 바꾼다.
+name: drspark-alarm
+
+services:
+  alarm:
+    build:
+      context: .
+      args:
+        APP_UID: "${APP_UID:-1000}"
+        APP_GID: "${APP_GID:-1000}"
+    image: drspark-alarm:latest
+    container_name: drspark-alarm
+    env_file:
+      - path: .env
+        required: false      # .env가 없으면 웹후크 없이 돈다(알림을 보내지 않고 경고만 남김)
+    environment:
+      TZ: Asia/Seoul
+      DRSPARK_DB: /app/data/drspark_seen.db
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    # 표준 출력에도 DEBUG 로그가 나오므로 docker 로그 크기를 제한한다(파일 로그는 ./data/drspark.log, 5MB×6)
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
